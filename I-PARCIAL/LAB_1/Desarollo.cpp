@@ -5,7 +5,7 @@ Taller de Operaciones Básicas
 Fecha creación: 19/05/2021
 Fecha modificación: 20/05/2021*/
 
-#include "operaciones.cpp"
+#include "Constructor.cpp"
 template <typename tipoDato>
 tipoDato Operaciones <tipoDato>::suma(){
 	return valor1+valor2;
