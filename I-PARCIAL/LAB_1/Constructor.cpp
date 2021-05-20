@@ -21,5 +21,23 @@ class Operaciones{
 			valor1=_valor1;
 			valor2=_valor2;
 			valor1=valor_1;
-		}	
+		}
+		void setValor1(tipoDato valor_1)
+		{
+			valor1=valor_1;
+		}
+		tipoDato getValor1()
+		{
+			return valor1;
+		}
+		void setValor2(tipoDato valor_2)
+		{
+			valor2=valor_2;
+		}
+		tipoDato getValor2()
+		{
+			return valor2;
+		}
+		
+		#include "Operaciones.h"
 };
