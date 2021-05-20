@@ -9,14 +9,18 @@ Fecha modificación: 20/05/2021*/
 #include <iostream>
 #include <stdio.h>
 #include <conio.h>
+#include "desarrollo.cpp"
+using namespace std;
 
 int main(int argc, char** argv) {
 	float valor1,valor2;
-	cout<<"ingrese valor 1";
+	cout<<"ingrese valor 1 -> ";
 	cin>>valor1;
-	cout<<"ingrese valor 2";
+	cout<<"ingrese valor 2 -> ";
 	cin>>valor2;
+	
 	Operaciones<float>operacion(valor1,valor2);
+	
 	cout<<"Suma = " <<operacion.suma()<<endl;
 	cout<<"Resta = " <<operacion.resta()<<endl;
 	cout<<"Multiplicacion = " <<operacion.multiplicacion()<<endl;
