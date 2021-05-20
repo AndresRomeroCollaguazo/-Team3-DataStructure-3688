@@ -14,7 +14,7 @@ using namespace std;
 
 template <typename tipoDato>
 class Operaciones{
-	#include "estructura.h"
+	#include "Structura.h"
 	public :
 		Operaciones(tipoDato _valor1, tipoDato _valor2)
 		{
