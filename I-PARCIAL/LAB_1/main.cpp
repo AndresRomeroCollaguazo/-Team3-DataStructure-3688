@@ -9,7 +9,7 @@ Fecha modificación: 20/05/2021*/
 #include <iostream>
 #include <stdio.h>
 #include <conio.h>
-#include "desarrollo.cpp"
+#include "Desarrollo.cpp"
 using namespace std;
 
 int main(int argc, char** argv) {
