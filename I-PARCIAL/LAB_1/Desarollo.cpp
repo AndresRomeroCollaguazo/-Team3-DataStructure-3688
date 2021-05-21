@@ -9,17 +9,17 @@ Fecha modificación: 20/05/2021*/
 using namespace std;
 template <typename tipoDato>
 tipoDato Operaciones <tipoDato>::suma(){
-	return valor1+valor2;
+	return valor1+valor2;//@add two generic data
 
 }
 template <typename tipoDato>
 tipoDato Operaciones <tipoDato>::resta(){
-	return valor1-valor2;
+	return valor1-valor2;//@subtract two generic data
 
 }
 template <typename tipoDato>
 tipoDato Operaciones <tipoDato>::multiplicacion(){
-	return valor1*valor2;
+	return valor1*valor2;//@multiply two generic data
 
 }
 template <typename tipoDato>
@@ -28,6 +28,6 @@ tipoDato Operaciones <tipoDato>::division(){
 	{
 	cout<<"NO SE PUEDE DIVIDIR !!!!"<<endl;
 	}else
-	return valor1/valor2;
+	return valor1/valor2;//@divide two generic data
 
 }
