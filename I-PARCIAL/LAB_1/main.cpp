@@ -9,8 +9,12 @@ Fecha modificación: 20/05/2021*/
 #include <stdio.h>
 #include <conio.h>
 #include "Desarollo.cpp"
+/*@author Grupo 3
+* @version 0.1 20-05-2021
+* Allows running the program receiving two parameters
+*/
 using namespace std;
-
+/* run this program using the console pauser or add your own getch, system("pause")*/
 int main(int argc, char** argv) {
 	float valor1,valor2;
 	cout<<"ingrese valor 1 -> ";
