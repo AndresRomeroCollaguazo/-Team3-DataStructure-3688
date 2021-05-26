@@ -24,4 +24,5 @@ class Operaciones{
 		tipoDato getValor2();
 		string to_String();
 		#include "Operaciones.h"
+		
 };
