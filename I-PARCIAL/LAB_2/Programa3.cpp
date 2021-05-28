@@ -2,7 +2,7 @@
 /*Universidad de las Fuerzas Armadas "ESPE"
 Software
 Autores: Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés
-Taller de Operaciones Básicas
+Taller de Operadores Sobrecargados 
 Fecha creación: 26/05/2021
 Fecha modificación: 27/05/2021*/
 
