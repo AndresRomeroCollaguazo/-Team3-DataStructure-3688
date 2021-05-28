@@ -3,7 +3,8 @@
 #include "MethodsA.h"
 #include "MethodsHP.h"
 #include "OperatorHP.h"
-
+#include "OperatorM.h"
+using namespace std;
 int main() {
 	OperadroJ user1;
 	float r=2;
