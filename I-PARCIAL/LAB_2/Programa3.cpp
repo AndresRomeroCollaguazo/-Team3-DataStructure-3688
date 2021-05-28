@@ -1,6 +1,10 @@
-// Programa3.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
-
+  
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores: Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés
+Taller de Operaciones Básicas
+Fecha creación: 26/05/2021
+Fecha modificación: 27/05/2021*/
 
 #include <iostream>
 #include "Operaciones.h"
