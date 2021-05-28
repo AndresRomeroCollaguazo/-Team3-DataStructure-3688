@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include "OperatorsA.h"
+#include "MethodsA.h"
 
 
 int main() {
