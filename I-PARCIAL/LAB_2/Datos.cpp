@@ -1,42 +1,45 @@
 /***********************************************************************
- * Module:  Datos.cpp
- * Author:  avand
- * Modified: mi�rcoles, 26 de mayo de 2021 15:38:43
- * Purpose: Implementation of the class Datos
- ***********************************************************************/
- #include "Datos.h"
-template <typename Dato>
-Dato Datos<Dato>::getDatoA(void)
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores: Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés
+Taller de Operadores Sobrecargados
+Fecha creación: 26/05/2021
+Fecha modificación: 27/05/2021*/
+
+
+#include "Data.h"
+template <typename Datum>
+Datum Data<Datum>::getDatumA(void)
 {
-   return datoA;
+	return datumA;
 }
-template <typename Dato>
-void Datos<Dato>::setDatoA(Dato newDatoA)
+template <typename Datum>
+void datum<Datum>::setDatumA(Datum newDatumA)
 {
-   datoA = newDatoA;
+	datumA = newDatumA;
 }
-template <typename Dato>
-Dato Datos<Dato>::getDatoB(void)
+template <typename Datum>
+Datum Data<Datum>::getDatumB(void)
 {
-   return datoB;
+	return datumB;
 }
-template <typename Dato>
-void Datos<Dato>::setDatoB(Dato newDatoB)
+template <typename Datum>
+void Datum<Datum>::setDatumB(Datum newDatumB)
 {
-   datoB = newDatoB;
+	datumB = newDatumB;
 }
-template <typename Dato>
-Datos<Dato>::Datos(Dato datoNuevoA,Dato datoNuevoB)
+template <typename Datum>
+Datum<Datum>::Data(Datum newDatumA, Datum newDatumB)
 {
-	this->datoA=datoNuevoA;
-	this->datoB= datoNuevoB;
+	this->datumA = newDatumA;
+	this->datumB = newDatumB;
 }
-template <typename Dato>
-Datos<Dato>::~Datos()
+template <typename Datum>
+Data<Datum>::~Data()
 {
-	
+
 }
 
-template class Datos<int>;
-template class Datos<double>;
-template class Datos<float>;
+template class Data<int>;
+template class Data<double>;
+template class Data<float>;
