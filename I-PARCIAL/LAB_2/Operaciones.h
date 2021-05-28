@@ -1,19 +1,18 @@
-/***********************************************************************
- * Module:  Operaciones.h
- * Author:  avand
- * Modified: mi�rcoles, 26 de mayo de 2021 15:38:43
- * Purpose: Declaration of the class Operaciones
- ***********************************************************************/
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores: Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés
+Taller de Operadores Sobrecargados 
+Fecha creación: 26/05/2021
+Fecha modificación: 27/05/2021*/
 
-#include "Datos.h"
+#include "Data.h"
 
-class Operaciones{
+class Operations{
 	private:
-		Datos<float> datoConjunto;
+		Data<float> data_set;
 	public:
-		Operaciones()=default;
+		Operations()=default;
 		float operator +();
 		float operator -();
-		Operaciones(Datos<float>);
-};
-	
+		Operations(Data<float>);
+};	
