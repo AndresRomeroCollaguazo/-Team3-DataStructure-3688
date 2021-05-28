@@ -1,20 +1,20 @@
-#include "Operaciones.h"
+#include "Operations.h"
 
 
 
 
-Operaciones::Operaciones(Datos<float> newdatos){
-	this->datoConjunto = newdatos;
+Operations::Operaciones(Date<float> newdatum){
+	this->data_set = newdate;
 }
 
-float Operaciones::operator +() {
-			return float(this->datoConjunto.getDatoA())+float(this->datoConjunto.getDatoB());
+float Operations::operator +() {
+			return float(this->data_set.getDataA())+float(this->data_set.getDataB());
 			
 }
 
-float Operaciones::operator -(){
-			return float(this->datoConjunto.getDatoA())-float(this->datoConjunto.getDatoB());
+float Operations::operator -(){
+			return float(this->data_set.getDataA())-float(this->data_set.getDataB());
 }
 
 
-		
+
