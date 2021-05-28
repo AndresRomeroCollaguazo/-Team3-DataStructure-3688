@@ -31,20 +31,7 @@ int opcion;
         switch (opcion) {
             case 1:
                 // Lista de instrucciones de la opción 1                
-                double d = 20.89;
-		float b = 15.5f;
-		int a = 5;
-		Methods methods(a, d,b);
-		Operators op(methods);
-		printf("\nAndres Gerardo Valarezo Correa");
-		printf("\nMETODOS SOBRECARGADOS");
-		printf("\nLa multiplicacion sobrecargada es %.2f", methods.multiplication(a));
-		printf("\nLa multiplicacion sobregcargada es %.2f", methods.multiplication(d,a));
-		printf("\nLa multiplicacion sobrecargada es %.2f", methods.multiplication(b,d,a));
-		printf("\nOPERADORES SOBRECARGADOS");
-		printf("\nLa multiplicacion es %.2f", op.operator*());
-		printf("\nLa suma es %.2f", op.operator++());
-		printf("\nLa resta es %.2f", op.operator--());
+                
                 system("pause>nul"); // Pausa
                 break;
                 
@@ -82,7 +69,23 @@ int opcion;
 				cout << r << "\nsumado 500 es: " << user1.operator*(t) << endl;
                 system("pause>nul"); // Pausa                
                 break;
-            
+	     case 5:
+		double d = 20.89;
+		float b = 15.5f;
+		int a = 5;
+		Methods methods(a, d,b);
+		Operators op(methods);
+		printf("\nAndres Gerardo Valarezo Correa");
+		printf("\nMETODOS SOBRECARGADOS");
+		printf("\nLa multiplicacion sobrecargada es %.2f", methods.multiplication(a));
+		printf("\nLa multiplicacion sobregcargada es %.2f", methods.multiplication(d,a));
+		printf("\nLa multiplicacion sobrecargada es %.2f", methods.multiplication(b,d,a));
+		printf("\nOPERADORES SOBRECARGADOS");
+		printf("\nLa multiplicacion es %.2f", op.operator*());
+		printf("\nLa suma es %.2f", op.operator++());
+		printf("\nLa resta es %.2f", op.operator--());
+            	system("pause>nul"); // Pausa                
+                break;
             case 0:
             	repetir = false;
             	break;
