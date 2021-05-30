@@ -48,7 +48,7 @@ void Operations::print(Vector &vect) \\ Imprime el Array ingresado.
 	int* a = vect.getVector_1();
 	for (int i = 0; i < 10; i++)
 	{
-		cout << a[i] << endl;
+		cout << a[i];
 	}
 }
 
