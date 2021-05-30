@@ -1,12 +1,12 @@
 #pragma once
 #include "Vector.h"
-class Operaciones
+class Operations
 {
 public:
-	Operaciones();
-	void encerar(Vector &);
-	void ingresar(Vector &);
-	float procesar(Vector&);
-	void imprimir(Vector &);
+	Operations();
+	void wax(Vector &);
+	void get_into(Vector &);
+	float process(Vector&);
+	void print(Vector &);
 };
 
