@@ -11,21 +11,21 @@ Vector::Vector(int v[10])
 {
 	for (int i = 0; i < 10; i++)
 	{
-		this->v1[i] = v[i];
+		this->vector_1[i] = v[i];
 	}
 }
 
 
-int* Vector::getV1() 
+int* Vector::getVector_1() 
 {
-	return this->v1;
+	return this->vector_1;
 }
 
-void Vector::setV1(int v[10])
+void Vector::setVector_1(int v[10])
 {
 	for (int i = 0; i < 10; i++)
 	{
-		this->v1[i] = v[i];
+		this->vector_1[i] = v[i];
 	}
 }
 
