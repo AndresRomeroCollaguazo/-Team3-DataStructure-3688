@@ -1,4 +1,3 @@
-/ * **************** ********
 / * Universidad de las Fuerzas Armadas "ESPE"
 Software
 Autores: Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés
