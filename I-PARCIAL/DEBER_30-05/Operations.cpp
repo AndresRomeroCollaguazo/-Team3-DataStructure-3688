@@ -13,42 +13,42 @@ using namespace std;
 Operations::Operations()
 {
 }
-void Operations::wax(Vector &vect) \\ Llena de ceros el Array ingresado.
+void Operations::wax(Vector &vect) //@Fill the entered Array with zeros.
 {
 	printf("ENCERAR\n");
-	int* a = vect.getVector_1();
+	int* v = vect.getVector_1();
 	for (int i = 0; i < 10; i++)
 	{
-		a[i] = 0;
+		v[i] = 0;
 	}
 }
 
-void Operations::get_into(Vector& vect) \\ Llena de numeros aleatorios el Array ingresado.
+void Operations::get_into(Vector& vect)//@Fill the entered Array with random numbers.
 {
 	printf("INGRESAR\n");
-	int* a = vect.getVector_1();
+	int* v = vect.getVector_1();
 	for (int i = 0; i < 10; i++) {
-		a[i] = rand() % 10 + 1;
+		v[i] = rand() % 10 + 1;
 	}
 }
 
-float Operations::process(Vector& vect) \\ Obtiene el promedio del Array ingresado
+float Operations::process(Vector& vect) //@Gets the average of the Array entered
 {
 	printf("PROCESAR\n");
-	int* a = vect.getVector_1();
+	int* v = vect.getVector_1();
 	float promedio = 0.0f;
 	for (int i = 0; i < 10; i++) {
-		promedio += a[i];
+		promedio += v[i];
 	}
 	return promedio / 10;
 }
 
-void Operations::print(Vector &vect) \\ Imprime el Array ingresado.
+void Operations::print(Vector &vect) //@Print the Array entered.
 {
-	int* a = vect.getVector_1();
+	int* v = vect.getVector_1();
 	for (int i = 0; i < 10; i++)
 	{
-		cout << a[i];
+		cout << v[i];
 	}
 }
 
