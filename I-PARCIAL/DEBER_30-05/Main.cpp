@@ -8,7 +8,7 @@ Fecha de modificación: 30/05/2021 */
 	
 #include <iostream>
 #include "Vector.h";
-#include "Operaciones.h";
+#include "Operations.h";
 using namespace std;
 int main()
 {
