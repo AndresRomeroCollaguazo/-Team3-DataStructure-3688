@@ -5,17 +5,20 @@ Taller de clases
 Fecha creación : 31 / 05 / 2021
 Fecha de modificación : 31 / 05 / 2021 */
 #include "Person.h"
+#include "Date.h"
 #include <iostream>
 using namespace std;
 int main()
 {
-   Person p1("Jose", "Valdiviezo", 19, 1234);
-   Date d1(31, 05, 2021);
- 
-	cout<<"la fecha es: "<<d1.getDay()<<d1.getMonth()<<d1.getYear()<<endl;
-	cout<<"La persona es: "<<p1.getName()<<pi.getLat_name()<<"edad :"<<p1.getAge()<<"dni :"<<p1.getDni()<<endl;
-	
+	Person p1("Jose", "Valdiviezo", 19, 1234);
+	Date d1(31, 05, 2021);
 
+	cout <<  endl;
+	cout <<"La fecha que se genero es: "<<d1.getDay()<< "/"<<d1.getMonth()<<"/"<<d1.getYear() <<"\n"<< endl;
+	cout <<"Nombre-> "<< p1.getName()<<endl;
+	cout << "Apellido-> " << p1.getLast_name() << endl;
+	cout << "Edad-> " << p1.getAge() << endl;
+	cout << "DNI-> " << p1.getDni() << endl;
 }
 
 
