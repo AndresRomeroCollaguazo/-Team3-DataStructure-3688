@@ -1,9 +1,9 @@
-/***********************************************************************
- * Module:  Person.h
- * Author:  avand
- * Modified: lunes, 31 de mayo de 2021 10:40:28
- * Purpose: Declaration of the class Person
- ***********************************************************************/
+/* Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores : Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés
+Deber de Memoria Estática
+Fecha creación : 31 / 05 / 2021
+Fecha de modificación : 31 / 05 / 2021 */
 
 #if !defined(__Class_Diagram_1_Person_h)
 #define __Class_Diagram_1_Person_h
