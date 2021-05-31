@@ -17,7 +17,7 @@
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Fuctions::multiplication(Matrix m1, Matrix m2)
+void Fuctions::multiplication(Matrix& m1, Matrix& m2)
 {
    // TODO : implement
 }
