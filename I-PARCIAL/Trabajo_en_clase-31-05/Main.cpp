@@ -9,7 +9,10 @@ Fecha de modificación : 31 / 05 / 2021 */
 using namespace std;
 int main()
 {
+   Person p1;
+   Data  d1;
    
+   cout<<"FECHA: "<<endl;
 }
 
 
