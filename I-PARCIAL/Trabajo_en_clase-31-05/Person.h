@@ -5,8 +5,13 @@ Taller de clases
 Fecha creación : 31 / 05 / 2021
 Fecha de modificación : 31 / 05 / 2021 */
 
+#include <iostream>
+using namespace std;
+
 #if !defined(__Class_Diagram_1_Person_h)
 #define __Class_Diagram_1_Person_h
+
+class Date;
 
 class Person
 {
@@ -22,6 +27,8 @@ public:
    Person(std::string _name, std::string _last_name, int _age, int _dni);
    ~Person();
    Person();
+
+   Date* Date;
 
 protected:
 private:
