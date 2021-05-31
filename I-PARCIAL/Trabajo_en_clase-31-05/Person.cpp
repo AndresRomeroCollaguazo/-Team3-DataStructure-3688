@@ -5,8 +5,10 @@ Taller de clases
 Fecha creación : 31 / 05 / 2021
 Fecha de modificación : 31 / 05 / 2021 */
 
+#include "Date.h"
 #include "Person.h"
-
+#include <iostream>
+using namespace std;
 ////////////////////////////////////////////////////////////////////////
 // Name:       Person::getName()
 // Purpose:    Implementation of Person::getName()
@@ -141,4 +143,5 @@ Person::~Person()
 
 Person::Person()
 {
+   Date = NULL;
 }
