@@ -6,7 +6,6 @@ Taller de clases
 Fecha creación : 31 / 05 / 2021
 Fecha de modificación : 31 / 05 / 2021 */
 
-#include "Person.h"
 #include "Date.h"
 
 ////////////////////////////////////////////////////////////////////////
@@ -117,5 +116,4 @@ Date::~Date()
 
 Date::Date()
 {
-   Person = NULL;
 }
