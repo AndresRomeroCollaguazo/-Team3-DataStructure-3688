@@ -4,11 +4,8 @@ Autores : Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Val
 Taller de clases
 Fecha creación : 31 / 05 / 2021
 Fecha de modificación : 31 / 05 / 2021 */
-
 #if !defined(__Class_Diagram_1_Date_h)
 #define __Class_Diagram_1_Date_h
-
-class Person;
 
 class Date
 {
@@ -22,8 +19,6 @@ public:
    Date(int _day, int _month, int _year);
    ~Date();
    Date();
-
-   Person* Person;
 
 protected:
 private:
