@@ -11,9 +11,11 @@ int main()
 {
    Person p1("Jose", "Valdiviezo", 19, 1234);
    Date d1(31, 05, 2021);
-   printf("La fecha es: %d / %d / %d", d1.getDay(), d1.getMonth(), d1.getYear());
-	printf("La persona es: %s %s edad: %d dni: %d", p1.getName(), p1.getLast_name(), p1.getAge(),p1.getDni());
-   cout<<"FECHA: "<<endl;
+ 
+	cout<<"la fecha es: "<<d1.getDay()<<d1.getMonth()<<d1.getYear()<<endl;
+	cout<<"La persona es: "<<p1.getName()<<pi.getLat_name()<<"edad :"<<p1.getAge()<<"dni :"<<p1.getDni()<<endl;
+	
+
 }
 
 
