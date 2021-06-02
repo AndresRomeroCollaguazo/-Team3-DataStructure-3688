@@ -69,7 +69,7 @@ void Fuctions::llenarMatriz(int _fila, int _columna,int ** _matriz)
     int b;
     for (int l = 0; l < _fila; l++) {
         for (int m = 0; m < _columna; m++) {
-            cout << "Ingrese el valor [" << l << "][" << m << "] de la segunda matriz" << endl;
+            cout << "Ingrese el valor [" << l << "][" << m << "] de la matriz" << endl;
             cin >> b;
             _matriz [l][m] = b;
         }
