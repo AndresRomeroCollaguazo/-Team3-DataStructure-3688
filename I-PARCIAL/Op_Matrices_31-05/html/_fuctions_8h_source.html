@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Multiplicacion de Matrices: Fichero Fuente Fuctions.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Multiplicacion de Matrices
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Multiplicacion de Matrices</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Fuctions.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_fuctions_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/***********************************************************************</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * Module:  Fuctions.h</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * Author:  avand</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * Modified: martes, 1 de junio de 2021 17:42:10</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * Purpose: Declaration of the class Fuctions</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> ***********************************************************************/</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_matrix_8h.html">Matrix.h</a>&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#if !defined(__Class_Diagram_1_Fuctions_h)</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define __Class_Diagram_1_Fuctions_h</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_fuctions.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_fuctions.html">Fuctions</a></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">int</span>** <a class="code" href="class_fuctions.html#aace9ada60fc30df1c412978eaf6a19d0">multiplication</a>(<a class="code" href="class_matrix.html">Matrix</a> m1, <a class="code" href="class_matrix.html">Matrix</a> m2, <span class="keywordtype">int</span> row1, <span class="keywordtype">int</span> column1, <span class="keywordtype">int</span> column2);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_fuctions.html#a6cd072fa4830abb2ffa776562665d75d">print</a>(<a class="code" href="class_matrix.html">Matrix</a> m1, <span class="keywordtype">int</span> row, <span class="keywordtype">int</span> column);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_fuctions.html#a39073c2aca5cc7f8dd3604c313862667">fill_Matrix</a>(<span class="keywordtype">int</span> row, <span class="keywordtype">int</span> column, <span class="keywordtype">int</span>** m1);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_fuctions.html#a212c6b91697e7d2fe1451414e5360439">verify</a>(<span class="keywordtype">int</span> column1, <span class="keywordtype">int</span> row2);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_matrix_8h_html"><div class="ttname"><a href="_matrix_8h.html">Matrix.h</a></div><div class="ttdoc">Clase para el manejo de la matriz.</div></div>
+<div class="ttc" id="aclass_fuctions_html"><div class="ttname"><a href="class_fuctions.html">Fuctions</a></div><div class="ttdef"><b>Definition:</b> Fuctions.h:22</div></div>
+<div class="ttc" id="aclass_fuctions_html_a212c6b91697e7d2fe1451414e5360439"><div class="ttname"><a href="class_fuctions.html#a212c6b91697e7d2fe1451414e5360439">Fuctions::verify</a></div><div class="ttdeci">int verify(int column1, int row2)</div><div class="ttdoc">verify verifica las 2 matrices</div><div class="ttdef"><b>Definition:</b> Fuctions.cpp:102</div></div>
+<div class="ttc" id="aclass_fuctions_html_a39073c2aca5cc7f8dd3604c313862667"><div class="ttname"><a href="class_fuctions.html#a39073c2aca5cc7f8dd3604c313862667">Fuctions::fill_Matrix</a></div><div class="ttdeci">void fill_Matrix(int row, int column, int **m1)</div><div class="ttdoc">fill_Matrix Llenamos la matriz</div><div class="ttdef"><b>Definition:</b> Fuctions.cpp:81</div></div>
+<div class="ttc" id="aclass_fuctions_html_a6cd072fa4830abb2ffa776562665d75d"><div class="ttname"><a href="class_fuctions.html#a6cd072fa4830abb2ffa776562665d75d">Fuctions::print</a></div><div class="ttdeci">void print(Matrix m1, int row, int column)</div><div class="ttdoc">pritnf Imprime la matriz resultante</div><div class="ttdef"><b>Definition:</b> Fuctions.cpp:57</div></div>
+<div class="ttc" id="aclass_fuctions_html_aace9ada60fc30df1c412978eaf6a19d0"><div class="ttname"><a href="class_fuctions.html#aace9ada60fc30df1c412978eaf6a19d0">Fuctions::multiplication</a></div><div class="ttdeci">int ** multiplication(Matrix m1, Matrix m2, int row1, int column1, int column2)</div><div class="ttdoc">multiplication Multiplicamos las 2 matrices</div><div class="ttdef"><b>Definition:</b> Fuctions.cpp:24</div></div>
+<div class="ttc" id="aclass_matrix_html"><div class="ttname"><a href="class_matrix.html">Matrix</a></div><div class="ttdoc">Objetivo para la creacion de la matriz.</div><div class="ttdef"><b>Definition:</b> Matrix.h:23</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
