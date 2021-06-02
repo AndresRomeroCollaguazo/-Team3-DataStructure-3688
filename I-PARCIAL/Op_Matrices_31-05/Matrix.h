@@ -1,7 +1,8 @@
+
 /***********************************************************************
  * Module:  Matrix.h
  * Author:  avand
- * Modified: lunes, 31 de mayo de 2021 18:14:39
+ * Modified: martes, 1 de junio de 2021 17:39:08
  * Purpose: Declaration of the class Matrix
  ***********************************************************************/
 
@@ -11,15 +12,17 @@
 class Matrix
 {
 public:
-   int** getMatrix(void);
-   void setMatrix(int newMatrix[][10] );
-   Matrix(int _matrix[][10] );
-   ~Matrix();
-   void enter_matrix(int m1[][10] );
+	void setMatrix(int );
+	Matrix(int** _matrix, int _row, int _column);
+	~Matrix();
+	int rove_Matrix(int i, int j);
+	int getMatrix(void);
 
 protected:
 private:
-   int **matrix;
+	int matrix[10][10];
+	int row;
+	int column;
 
 
 };
