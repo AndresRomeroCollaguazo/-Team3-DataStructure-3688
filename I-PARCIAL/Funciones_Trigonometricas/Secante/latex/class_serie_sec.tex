@@ -1,0 +1,137 @@
+\hypertarget{class_serie_sec}{}\doxysection{Referencia de la Clase Serie\+Sec}
+\label{class_serie_sec}\index{SerieSec@{SerieSec}}
+
+
+{\ttfamily \#include $<$Serie\+Sec.\+h$>$}
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_serie_sec_ab7032a2113e008f9fb467ebf3751d91a}{Serie\+Sec}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_serie_sec}{Serie\+Sec}} es el constructor de la clase. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_serie_sec_a88b67160bc05c842fff1ad4829aac84a}{factorial}} (int n)
+\begin{DoxyCompactList}\small\item\em factorial Obtiene la factorial de un numero natural \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_serie_sec_ad0eec0169b75063d91d97b3f782e16bf}{serie}} (double sec, int i, int rec)
+\begin{DoxyCompactList}\small\item\em serie Obtiene la serie del coseno que al dividir al 1 nos otorga la secante \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_serie_sec_a77ffc092e520c70f1e3fd12393a0f689}{$\sim$\+Serie\+Sec}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_serie_sec}{Serie\+Sec}} es el destructor de la clase. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_serie_sec_a12737ba4d08c9e1d490d15402c284222}{value}} (int p)
+\begin{DoxyCompactList}\small\item\em value Indica el signo de la posicion de la serie \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+\begin{DoxyVerb}@file SerieSec.h
+@version 1.0
+@date 06/06/2021
+@author Martin Medina
+@title Serie de Taylor para Secante
+@Funciones para obtener la serie de Taylor
+@code
+int main()
+\end{DoxyVerb}
+ \{ \mbox{\hyperlink{class_serie_sec}{Serie\+Sec}} serie; int p; double value = 0; int ciclo = 1; int rec = 1; float arg;
+
+cout $<$$<$ \char`\"{}\+Ingrese el argumento de la secante (en radianes)\char`\"{} $<$$<$ endl; cin $>$$>$ arg; cout $<$$<$ \char`\"{}\+Ingrese el numero de ciclos a calcular\char`\"{} $<$$<$ endl; cin $>$$>$ p;
+
+if (p $>$ 1) \{ for (int i = 1; i $<$= p; i++) \{ value += serie.\+serie(arg, ciclo, rec); rec++; ciclo++; \} \}
+
+cout.\+setf(ios\+::fixed); cout.\+precision(9);
+
+cout $<$$<$ \char`\"{}\+Sec(\char`\"{} $<$$<$ arg $<$$<$ \char`\"{}) es\+: \char`\"{} $<$$<$ 1 / (1 + value) $<$$<$ endl;
+
+return 0; \}  
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_serie_sec_ab7032a2113e008f9fb467ebf3751d91a}\label{class_serie_sec_ab7032a2113e008f9fb467ebf3751d91a}} 
+\index{SerieSec@{SerieSec}!SerieSec@{SerieSec}}
+\index{SerieSec@{SerieSec}!SerieSec@{SerieSec}}
+\doxysubsubsection{\texorpdfstring{SerieSec()}{SerieSec()}}
+{\footnotesize\ttfamily Serie\+Sec\+::\+Serie\+Sec (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_serie_sec}{Serie\+Sec}} es el constructor de la clase. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_serie_sec_a77ffc092e520c70f1e3fd12393a0f689}\label{class_serie_sec_a77ffc092e520c70f1e3fd12393a0f689}} 
+\index{SerieSec@{SerieSec}!````~SerieSec@{$\sim$SerieSec}}
+\index{````~SerieSec@{$\sim$SerieSec}!SerieSec@{SerieSec}}
+\doxysubsubsection{\texorpdfstring{$\sim$SerieSec()}{~SerieSec()}}
+{\footnotesize\ttfamily Serie\+Sec\+::$\sim$\+Serie\+Sec (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_serie_sec}{Serie\+Sec}} es el destructor de la clase. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_serie_sec_a88b67160bc05c842fff1ad4829aac84a}\label{class_serie_sec_a88b67160bc05c842fff1ad4829aac84a}} 
+\index{SerieSec@{SerieSec}!factorial@{factorial}}
+\index{factorial@{factorial}!SerieSec@{SerieSec}}
+\doxysubsubsection{\texorpdfstring{factorial()}{factorial()}}
+{\footnotesize\ttfamily int Serie\+Sec\+::factorial (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+factorial Obtiene la factorial de un numero natural 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em n} & es el numero entero \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+el resultado de la factorial 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_serie_sec_ad0eec0169b75063d91d97b3f782e16bf}\label{class_serie_sec_ad0eec0169b75063d91d97b3f782e16bf}} 
+\index{SerieSec@{SerieSec}!serie@{serie}}
+\index{serie@{serie}!SerieSec@{SerieSec}}
+\doxysubsubsection{\texorpdfstring{serie()}{serie()}}
+{\footnotesize\ttfamily float Serie\+Sec\+::serie (\begin{DoxyParamCaption}\item[{double}]{sec,  }\item[{int}]{i,  }\item[{int}]{rec }\end{DoxyParamCaption})}
+
+
+
+serie Obtiene la serie del coseno que al dividir al 1 nos otorga la secante 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em sec} & es el argumento del coseno, i es la posicion de la serie, rec nos permite saltar los puntos donde la serie es 0 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+el valor de la serie del coseno en un punto, pero con un ciclo simple en main nos otorga el valor de la serie-\/1 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_serie_sec_a12737ba4d08c9e1d490d15402c284222}\label{class_serie_sec_a12737ba4d08c9e1d490d15402c284222}} 
+\index{SerieSec@{SerieSec}!value@{value}}
+\index{value@{value}!SerieSec@{SerieSec}}
+\doxysubsubsection{\texorpdfstring{value()}{value()}}
+{\footnotesize\ttfamily int Serie\+Sec\+::value (\begin{DoxyParamCaption}\item[{int}]{p }\end{DoxyParamCaption})}
+
+
+
+value Indica el signo de la posicion de la serie 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em p} & es la posicion de la serie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+1 si es par y -\/1 si es impar 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+Serie de Taylor para la Secante/\mbox{\hyperlink{_serie_sec_8h}{Serie\+Sec.\+h}}\item 
+Serie de Taylor para la Secante/\mbox{\hyperlink{_serie_sec_8cpp}{Serie\+Sec.\+cpp}}\end{DoxyCompactItemize}
