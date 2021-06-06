@@ -7,6 +7,10 @@
 
 #include "SerieSec.h"
 
+#include <Math.h>
+#include <iostream>
+
+using namespace std;
 ////////////////////////////////////////////////////////////////////////
 // Name:       SerieSec::SerieSec()
 // Purpose:    Implementation of SerieSec::SerieSec()
