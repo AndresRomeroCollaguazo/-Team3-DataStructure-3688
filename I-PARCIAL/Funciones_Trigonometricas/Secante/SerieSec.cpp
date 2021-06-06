@@ -27,7 +27,11 @@ SerieSec::SerieSec()
 
 int SerieSec::factorial(int n)
 {
-   // TODO : implement
+   long double fact;
+	if (n == 0)
+		return 1;
+	else
+		return n * factorial(n - 1);
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -42,7 +46,17 @@ int SerieSec::factorial(int n)
 
 float SerieSec::serie(double sec, int i, int rec)
 {
-   // TODO : implement
+   float a, b;
+	float e = 1.570796327;
+	if ((sec == e)||(sec == e * 3)|| (sec == -e * 3)|| (sec == -e)) {
+		cout << "No se puede calcular el coseno en ese punto"<<endl;
+	}
+	else {
+		a = pow(sec, int(i + rec));
+		b = factorial(i + rec);
+
+		return (value(i) * (a / b));
+	}
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -66,5 +80,9 @@ SerieSec::~SerieSec()
 
 int SerieSec::value(int p)
 {
-   // TODO : implement
+   if ((p%2)==0) {
+		return 1;
+	}
+	else
+		return -1;
 }
