@@ -1,6 +1,6 @@
 /***********************************************************************
  * Module:  SerieSec.cpp
- * Author:  Jorge
+ * Author:  Martin
  * Modified: domingo, 06 de junio de 2021 14:24:06
  * Purpose: Implementation of the class SerieSec
  ***********************************************************************/
