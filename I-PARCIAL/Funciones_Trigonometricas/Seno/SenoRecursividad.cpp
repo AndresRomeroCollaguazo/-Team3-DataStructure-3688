@@ -13,10 +13,12 @@ using namespace std;
 
 int main()
 {
-    int n=5;
+   int n;
     double x;
     cout << "Digite el valor de x de la funcion sen(x): ";
     cin >> x;
+    cout << "Digite el valor de n : ";
+    cin >> n;
     Datum dat(x);
     Operation op;
     cout << "El resultado de sen de x en rad es: ";
