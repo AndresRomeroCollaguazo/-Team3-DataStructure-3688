@@ -1,3 +1,9 @@
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores: Cantuña Michelle
+Deber de Cuadro Magico
+Fecha creación : 04 / 06 / 2021
+Fecha de modificación : 08 / 06 / 2021 */
 #include <stdio.h>
 #include <iostream>
 #include "Fuction.h"
