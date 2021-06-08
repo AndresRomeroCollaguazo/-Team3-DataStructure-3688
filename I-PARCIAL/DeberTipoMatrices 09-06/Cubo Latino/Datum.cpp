@@ -1,9 +1,9 @@
-/***********************************************************************
- * Module:  Datum.cpp
- * Author:  avand
- * Modified: martes, 8 de junio de 2021 15:27:35
- * Purpose: Implementation of the class Datum
- ***********************************************************************/
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores: Cantuña Michelle
+Deber de Cuadro Magico
+Fecha creación : 04 / 06 / 2021
+Fecha de modificación : 08 / 06 / 2021 */
 
 #include "Datum.h"
 
