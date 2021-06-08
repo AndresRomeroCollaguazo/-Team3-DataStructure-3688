@@ -1,9 +1,9 @@
-/***********************************************************************
- * Module:  Fuction.cpp
- * Author:  avand
- * Modified: martes, 8 de junio de 2021 15:29:00
- * Purpose: Implementation of the class Fuction
- ***********************************************************************/
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores: Cantuña Michelle
+Deber de Cuadro Magico
+Fecha creación : 04 / 06 / 2021
+Fecha de modificación : 08 / 06 / 2021 */
 #include <iostream>
 #include "Fuction.h"
 using namespace std;
