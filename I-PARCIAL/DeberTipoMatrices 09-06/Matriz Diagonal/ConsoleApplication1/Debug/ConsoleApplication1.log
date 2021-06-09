@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (ConsoleApplication1.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  ConsoleApplication1.cpp
+C:\Users\HAMILTON\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(14,14): warning C4101: 'matriz': variable local sin referencia
+  Operations.cpp
+  Generando código...
+  ConsoleApplication1.vcxproj -> C:\Users\HAMILTON\source\repos\ConsoleApplication1\Debug\MatrizDiagonal.exe
