@@ -1,6 +1,6 @@
 /***********************************************************************
  * Module:  Pascal.cpp
- * Author:  Jorge
+ * Author:  Martin
  * Modified: martes, 08 de junio de 2021 20:47:12
  * Purpose: Implementation of the class Pascal
  ***********************************************************************/
@@ -18,7 +18,8 @@
 
 void Pascal::Pacal(int _n, int _res)
 {
-   // TODO : implement
+    this->n = _n;
+    this->res = _res;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -31,7 +32,16 @@ void Pascal::Pacal(int _n, int _res)
 
 void Pascal::graficPascal(int** _matrix)
 {
-   // TODO : implement
+   int i, j;
+    for (i = 0; i < get_n()-1; i++)
+    {
+        for (j = 0; j < get_n(); j++)
+        {
+            cout << *(*(_matrix + j) + i) << "   ";
+
+        }
+        cout << "" << endl;
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -42,7 +52,11 @@ void Pascal::graficPascal(int** _matrix)
 
 void Pascal::verify(void)
 {
-   // TODO : implement
+   if ((get_n() > 13) || (get_n() < 1))
+    {
+        cout << "Valor ingresado no valido" << endl;
+        exit(-1);
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -55,7 +69,15 @@ void Pascal::verify(void)
 
 int Pascal::fact(int n)
 {
-   // TODO : implement
+   if (n == 1 || n == 0)
+    {
+        return 1;
+    }
+    else
+    {
+        this->res = n * fact(n - 1);
+        return res;
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -69,7 +91,10 @@ int Pascal::fact(int n)
 
 int Pascal::combination(int n, int r)
 {
-   // TODO : implement
+   int num=fact(n);
+    int den=fact(n-r)*fact(r);
+    int result=num/den;
+    return result;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -85,7 +110,15 @@ int Pascal::combination(int n, int r)
 
 void Pascal::pascal(int curline, int nlines, int** matrix, int row)
 {
-   // TODO : implement
+   if(curline==nlines)
+        return;
+    int k=curline+1;
+        for (int j = 1; j <= k; j++)
+        {
+            int dig = combination(curline, j - 1);
+            *(*(matrix + (j-1)) +(row)) = dig;
+        }
+    pascal(curline+1,nlines,matrix,row+1);
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -96,7 +129,7 @@ void Pascal::pascal(int curline, int nlines, int** matrix, int row)
 
 int Pascal::get_n(void)
 {
-   // TODO : implement
+   return n;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -109,7 +142,7 @@ int Pascal::get_n(void)
 
 void Pascal::set_n(int _n)
 {
-   // TODO : implement
+   this->n = _n;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -120,5 +153,9 @@ void Pascal::set_n(int _n)
 
 void Pascal::pool(void)
 {
-   // TODO : implement
+   for (int a = 0; a < get_n(); a++) {
+        for (int b = 0; b < get_n(); b++) {
+            *(*(_matrix + a) + b) = 0;
+        }
+    }
 }
