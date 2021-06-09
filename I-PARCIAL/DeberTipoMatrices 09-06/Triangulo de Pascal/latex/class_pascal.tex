@@ -1,0 +1,229 @@
+\hypertarget{class_pascal}{}\doxysection{Referencia de la Clase Pascal}
+\label{class_pascal}\index{Pascal@{Pascal}}
+
+
+{\ttfamily \#include $<$Pascal.\+h$>$}
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_pascal_a902425c6843942f62b8c6bb13e944e07}{Pascal}} (int, int)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_pascal}{Pascal}} es el constructor de la clase. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pascal_aea08f911cf1e74df49a59d2fd40b524b}{grafic\+Pascal}} (int $\ast$$\ast$)
+\begin{DoxyCompactList}\small\item\em grafic\+Pascal es el destructor de la clase \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pascal_a94a45a237f77bdb787f8d646d06bb92e}{verify}} ()
+\begin{DoxyCompactList}\small\item\em verify controla el ingreso de valores entre 1-\/13 \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_pascal_a36a76e87f11722b97538bd5d2b1ad37e}{fact}} (int)
+\begin{DoxyCompactList}\small\item\em fact crea la posicion y valores iniciales del triangulo (uso recursivo) \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_pascal_a105e45eacc001c18d4f4b085b0e37cfa}{combination}} (int, int)
+\begin{DoxyCompactList}\small\item\em combination calcula el valor dentro del triangulo de un elemento \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pascal_ad0fde1af37c6f3dedcebb529d6f20d37}{pascal}} (int, int, int $\ast$$\ast$, int)
+\begin{DoxyCompactList}\small\item\em pascal crea el triangulo y lo ingresa en una matriz dinamica \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_pascal_a66aa586cbe934d5219ce3fbf95a1d540}{get\+\_\+n}} ()
+\begin{DoxyCompactList}\small\item\em get\+\_\+n obtiene el valor de n \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pascal_abefee962a5a55a48a482f57609e87980}{set\+\_\+n}} (int)
+\begin{DoxyCompactList}\small\item\em set\+\_\+n ingresa el valor de n \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pascal_a404b9c91e1369967566d0a41d97b3b34}{pool}} (int $\ast$$\ast$)
+\begin{DoxyCompactList}\small\item\em pool llena una matriz dinamica de ceros \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+\begin{DoxyVerb}@file Pascal.h
+@version 1.0
+@date 0//06/2021
+@author Martin Medina
+@title Triangulo de Pascal
+@Funciones para obtener el triangulo de pascal e insertarlo en una matriz dinamica
+@code
+int main()
+{
+int n;        
+cout << "Ingrese cuantos niveles tendra el triangulo (1-13)" << endl;
+cin >> n;
+
+int** matrix = new int* [n+1];
+for (int i = 0; i < n+1; i++)
+{
+    *(matrix + i) = new int[n+1];
+}
+
+Pascal pascal(n,1);
+pascal.verify();
+cout << "1" << endl;
+pascal.pool(matrix);
+pascal.pascal(1, n,matrix,0);
+pascal.graficPascal(matrix);
+
+return 0;
+\end{DoxyVerb}
+ \}  
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_pascal_a902425c6843942f62b8c6bb13e944e07}\label{class_pascal_a902425c6843942f62b8c6bb13e944e07}} 
+\index{Pascal@{Pascal}!Pascal@{Pascal}}
+\index{Pascal@{Pascal}!Pascal@{Pascal}}
+\doxysubsubsection{\texorpdfstring{Pascal()}{Pascal()}}
+{\footnotesize\ttfamily Pascal\+::\+Pascal (\begin{DoxyParamCaption}\item[{int}]{\+\_\+n,  }\item[{int}]{\+\_\+res }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_pascal}{Pascal}} es el constructor de la clase. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_pascal_a105e45eacc001c18d4f4b085b0e37cfa}\label{class_pascal_a105e45eacc001c18d4f4b085b0e37cfa}} 
+\index{Pascal@{Pascal}!combination@{combination}}
+\index{combination@{combination}!Pascal@{Pascal}}
+\doxysubsubsection{\texorpdfstring{combination()}{combination()}}
+{\footnotesize\ttfamily int Pascal\+::combination (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{int}]{r }\end{DoxyParamCaption})}
+
+
+
+combination calcula el valor dentro del triangulo de un elemento 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em int} & ingresa el numero para recorrer el triangulo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+el valor de un elemento de la triangulo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pascal_a36a76e87f11722b97538bd5d2b1ad37e}\label{class_pascal_a36a76e87f11722b97538bd5d2b1ad37e}} 
+\index{Pascal@{Pascal}!fact@{fact}}
+\index{fact@{fact}!Pascal@{Pascal}}
+\doxysubsubsection{\texorpdfstring{fact()}{fact()}}
+{\footnotesize\ttfamily int Pascal\+::fact (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+fact crea la posicion y valores iniciales del triangulo (uso recursivo) 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em int} & ingresa el numero de capas del triangulo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+las posicion y valores iniciales 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pascal_a66aa586cbe934d5219ce3fbf95a1d540}\label{class_pascal_a66aa586cbe934d5219ce3fbf95a1d540}} 
+\index{Pascal@{Pascal}!get\_n@{get\_n}}
+\index{get\_n@{get\_n}!Pascal@{Pascal}}
+\doxysubsubsection{\texorpdfstring{get\_n()}{get\_n()}}
+{\footnotesize\ttfamily int Pascal\+::get\+\_\+n (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+\_\+n obtiene el valor de n 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+n 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pascal_aea08f911cf1e74df49a59d2fd40b524b}\label{class_pascal_aea08f911cf1e74df49a59d2fd40b524b}} 
+\index{Pascal@{Pascal}!graficPascal@{graficPascal}}
+\index{graficPascal@{graficPascal}!Pascal@{Pascal}}
+\doxysubsubsection{\texorpdfstring{graficPascal()}{graficPascal()}}
+{\footnotesize\ttfamily void Pascal\+::grafic\+Pascal (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{\+\_\+matrix }\end{DoxyParamCaption})}
+
+
+
+grafic\+Pascal es el destructor de la clase 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em int$\ast$$\ast$} & es una matriz dinamica \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pascal_ad0fde1af37c6f3dedcebb529d6f20d37}\label{class_pascal_ad0fde1af37c6f3dedcebb529d6f20d37}} 
+\index{Pascal@{Pascal}!pascal@{pascal}}
+\index{pascal@{pascal}!Pascal@{Pascal}}
+\doxysubsubsection{\texorpdfstring{pascal()}{pascal()}}
+{\footnotesize\ttfamily void Pascal\+::pascal (\begin{DoxyParamCaption}\item[{int}]{curline,  }\item[{int}]{nlines,  }\item[{int $\ast$$\ast$}]{matrix,  }\item[{int}]{row }\end{DoxyParamCaption})}
+
+
+
+pascal crea el triangulo y lo ingresa en una matriz dinamica 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em int} & ingresa valor 1 de serie,int ingresa el numero de capas del triangulo,int$\ast$$\ast$ es una matriz dinamica,int es de uso recursivo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pascal_a404b9c91e1369967566d0a41d97b3b34}\label{class_pascal_a404b9c91e1369967566d0a41d97b3b34}} 
+\index{Pascal@{Pascal}!pool@{pool}}
+\index{pool@{pool}!Pascal@{Pascal}}
+\doxysubsubsection{\texorpdfstring{pool()}{pool()}}
+{\footnotesize\ttfamily void Pascal\+::pool (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{\+\_\+matrix }\end{DoxyParamCaption})}
+
+
+
+pool llena una matriz dinamica de ceros 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em int$\ast$$\ast$} & es una matriz \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pascal_abefee962a5a55a48a482f57609e87980}\label{class_pascal_abefee962a5a55a48a482f57609e87980}} 
+\index{Pascal@{Pascal}!set\_n@{set\_n}}
+\index{set\_n@{set\_n}!Pascal@{Pascal}}
+\doxysubsubsection{\texorpdfstring{set\_n()}{set\_n()}}
+{\footnotesize\ttfamily void Pascal\+::set\+\_\+n (\begin{DoxyParamCaption}\item[{int}]{\+\_\+n }\end{DoxyParamCaption})}
+
+
+
+set\+\_\+n ingresa el valor de n 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em int} & n \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pascal_a94a45a237f77bdb787f8d646d06bb92e}\label{class_pascal_a94a45a237f77bdb787f8d646d06bb92e}} 
+\index{Pascal@{Pascal}!verify@{verify}}
+\index{verify@{verify}!Pascal@{Pascal}}
+\doxysubsubsection{\texorpdfstring{verify()}{verify()}}
+{\footnotesize\ttfamily void Pascal\+::verify (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+verify controla el ingreso de valores entre 1-\/13 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+void 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+Pascal.\+h\item 
+Pascal.\+cpp\end{DoxyCompactItemize}
