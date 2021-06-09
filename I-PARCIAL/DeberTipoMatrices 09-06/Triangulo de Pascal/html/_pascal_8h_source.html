@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Pascal: Fichero Fuente Pascal.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pascal
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Genera el triangulo de pascal</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Pascal.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_pascal.html">   35</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_pascal.html">Pascal</a></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">int</span> n;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">int</span> res;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="class_pascal.html#a902425c6843942f62b8c6bb13e944e07">Pascal</a>(<span class="keywordtype">int</span>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_pascal.html#aea08f911cf1e74df49a59d2fd40b524b">graficPascal</a>(<span class="keywordtype">int</span>**);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_pascal.html#a94a45a237f77bdb787f8d646d06bb92e">verify</a>();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_pascal.html#a36a76e87f11722b97538bd5d2b1ad37e">fact</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_pascal.html#a105e45eacc001c18d4f4b085b0e37cfa">combination</a>(<span class="keywordtype">int</span> , <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_pascal.html#ad0fde1af37c6f3dedcebb529d6f20d37">pascal</a>(<span class="keywordtype">int</span> , <span class="keywordtype">int</span> ,<span class="keywordtype">int</span>**,<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_pascal.html#a66aa586cbe934d5219ce3fbf95a1d540">get_n</a>();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_pascal.html#abefee962a5a55a48a482f57609e87980">set_n</a>(<span class="keywordtype">int</span> );</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_pascal.html#a404b9c91e1369967566d0a41d97b3b34">pool</a>(<span class="keywordtype">int</span>**);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;};</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="ttc" id="aclass_pascal_html"><div class="ttname"><a href="class_pascal.html">Pascal</a></div><div class="ttdef"><b>Definition:</b> Pascal.h:36</div></div>
+<div class="ttc" id="aclass_pascal_html_a105e45eacc001c18d4f4b085b0e37cfa"><div class="ttname"><a href="class_pascal.html#a105e45eacc001c18d4f4b085b0e37cfa">Pascal::combination</a></div><div class="ttdeci">int combination(int, int)</div><div class="ttdoc">combination calcula el valor dentro del triangulo de un elemento</div><div class="ttdef"><b>Definition:</b> Pascal.cpp:45</div></div>
+<div class="ttc" id="aclass_pascal_html_a36a76e87f11722b97538bd5d2b1ad37e"><div class="ttname"><a href="class_pascal.html#a36a76e87f11722b97538bd5d2b1ad37e">Pascal::fact</a></div><div class="ttdeci">int fact(int)</div><div class="ttdoc">fact crea la posicion y valores iniciales del triangulo (uso recursivo)</div><div class="ttdef"><b>Definition:</b> Pascal.cpp:32</div></div>
+<div class="ttc" id="aclass_pascal_html_a404b9c91e1369967566d0a41d97b3b34"><div class="ttname"><a href="class_pascal.html#a404b9c91e1369967566d0a41d97b3b34">Pascal::pool</a></div><div class="ttdeci">void pool(int **)</div><div class="ttdoc">pool llena una matriz dinamica de ceros</div><div class="ttdef"><b>Definition:</b> Pascal.cpp:24</div></div>
+<div class="ttc" id="aclass_pascal_html_a66aa586cbe934d5219ce3fbf95a1d540"><div class="ttname"><a href="class_pascal.html#a66aa586cbe934d5219ce3fbf95a1d540">Pascal::get_n</a></div><div class="ttdeci">int get_n()</div><div class="ttdoc">get_n obtiene el valor de n</div><div class="ttdef"><b>Definition:</b> Pascal.cpp:73</div></div>
+<div class="ttc" id="aclass_pascal_html_a902425c6843942f62b8c6bb13e944e07"><div class="ttname"><a href="class_pascal.html#a902425c6843942f62b8c6bb13e944e07">Pascal::Pascal</a></div><div class="ttdeci">Pascal(int, int)</div><div class="ttdoc">Pascal es el constructor de la clase.</div><div class="ttdef"><b>Definition:</b> Pascal.cpp:5</div></div>
+<div class="ttc" id="aclass_pascal_html_a94a45a237f77bdb787f8d646d06bb92e"><div class="ttname"><a href="class_pascal.html#a94a45a237f77bdb787f8d646d06bb92e">Pascal::verify</a></div><div class="ttdeci">void verify()</div><div class="ttdoc">verify controla el ingreso de valores entre 1-13</div><div class="ttdef"><b>Definition:</b> Pascal.cpp:65</div></div>
+<div class="ttc" id="aclass_pascal_html_abefee962a5a55a48a482f57609e87980"><div class="ttname"><a href="class_pascal.html#abefee962a5a55a48a482f57609e87980">Pascal::set_n</a></div><div class="ttdeci">void set_n(int)</div><div class="ttdoc">set_n ingresa el valor de n</div><div class="ttdef"><b>Definition:</b> Pascal.cpp:77</div></div>
+<div class="ttc" id="aclass_pascal_html_ad0fde1af37c6f3dedcebb529d6f20d37"><div class="ttname"><a href="class_pascal.html#ad0fde1af37c6f3dedcebb529d6f20d37">Pascal::pascal</a></div><div class="ttdeci">void pascal(int, int, int **, int)</div><div class="ttdoc">pascal crea el triangulo y lo ingresa en una matriz dinamica</div><div class="ttdef"><b>Definition:</b> Pascal.cpp:52</div></div>
+<div class="ttc" id="aclass_pascal_html_aea08f911cf1e74df49a59d2fd40b524b"><div class="ttname"><a href="class_pascal.html#aea08f911cf1e74df49a59d2fd40b524b">Pascal::graficPascal</a></div><div class="ttdeci">void graficPascal(int **)</div><div class="ttdoc">graficPascal es el destructor de la clase</div><div class="ttdef"><b>Definition:</b> Pascal.cpp:10</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
