@@ -1,21 +1,21 @@
 /***********************************************************************
  * Module:  Nodo.cpp
- * Author:  
- * Modified: miércoles, 09 de junio de 2021 19:54:24
+ * Author:
+ * Modified: miÃ©rcoles, 09 de junio de 2021 19:54:24
  * Purpose: Implementation of the class Nodo
  ***********************************************************************/
 
 #include "Nodo.h"
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Nodo::~Nodo()
-// Purpose:    Implementation of Nodo::~Nodo()
-// Return:     
-////////////////////////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////////////////////
+ // Name:       Nodo::~Nodo()
+ // Purpose:    Implementation of Nodo::~Nodo()
+ // Return:     
+ ////////////////////////////////////////////////////////////////////////
 
 Nodo::~Nodo()
 {
-   // TODO : implement
+    // TODO : implement
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -26,7 +26,7 @@ Nodo::~Nodo()
 
 int Nodo::getDate(void)
 {
-   return date;
+    return date;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -39,7 +39,7 @@ int Nodo::getDate(void)
 
 void Nodo::setDate(int newDate)
 {
-   date = newDate;
+    date = newDate;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -50,7 +50,7 @@ void Nodo::setDate(int newDate)
 
 Nodo* Nodo::getNext(void)
 {
-   return next;
+    return next;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -63,7 +63,7 @@ Nodo* Nodo::getNext(void)
 
 void Nodo::setNext(Nodo* newNext)
 {
-   next = newNext;
+    next = newNext;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -72,8 +72,8 @@ void Nodo::setNext(Nodo* newNext)
 // Return:     
 ////////////////////////////////////////////////////////////////////////
 
-Nodo::Nodo(int value,Nodo* sig==NULL)
+Nodo::Nodo(int value)
 {
-    this->date=value;
-    this->next=sig;
+    this->date = value;
+    this->next = NULL;
 }
