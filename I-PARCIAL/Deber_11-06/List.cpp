@@ -64,7 +64,17 @@ void List::insertToTail(int _value)
 
 void List::deleteToHead(void)
 {
-	// TODO : implement
+	Nodo* temporal = new Nodo(0);
+	temporal = this->first;
+	
+	if(this->first !=NULL){
+	temporal = temporal->getNext();
+	free(temporal);
+	}else {
+	cout << endl << " La lista se encuentra Vacia " << endl << endl;
+	}
+	
+	return temporal;
 }
 
 ////////////////////////////////////////////////////////////////////////
