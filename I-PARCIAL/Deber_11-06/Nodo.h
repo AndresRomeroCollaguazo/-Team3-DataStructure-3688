@@ -1,7 +1,10 @@
+#pragma once
+#include <cstddef>
+
 /***********************************************************************
  * Module:  Nodo.h
- * Author:  
- * Modified: miércoles, 09 de junio de 2021 19:54:24
+ * Author:
+ * Modified: miÃ©rcoles, 09 de junio de 2021 19:54:24
  * Purpose: Declaration of the class Nodo
  ***********************************************************************/
 
@@ -11,17 +14,18 @@
 class Nodo
 {
 public:
-   ~Nodo();
-   int getDate(void);
-   void setDate(int newDate);
-   Nodo* getNext(void);
-   void setNext(Nodo* newNext);
-   Nodo(int value,Nodo *sig=NULL);
+	~Nodo();
+	int getDate(void);
+	void setDate(int newDate);
+	Nodo* getNext(void);
+	void setNext(Nodo* newNext);
+	Nodo(int value);
+	
 
 protected:
 private:
-   int date;
-   Nodo* next;
+	int date;
+	Nodo* next;
 
 
 };
