@@ -1,20 +1,28 @@
-/***********************************************************************
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores: Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés
+Deber de Listas
+Fecha creación: 09/06/2021
+Fecha de modificación: 10/06/2021 */
+/**
+
+/*************************
  * Module:  List.cpp
  * Author:
- * Modified: miércoles, 09 de junio de 2021 19:50:15
+ * Modified: miÃ©rcoles, 09 de junio de 2021 19:50:15
  * Purpose: Implementation of the class List
- ***********************************************************************/
+ *************************/
 
 #include "Nodo.h"
 #include "List.h"
 #include <malloc.h>
 #include <iostream>
 using namespace std;
- ////////////////////////////////////////////////////////////////////////
- // Name:       List::emplyList()
- // Purpose:    Implementation of List::emplyList()
- // Return:     bool
- ////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+// Name:       List::emplyList()
+// Purpose:    Implementation of List::emplyList()
+// Return:     bool
+////////////////////////////////////////////////////////////////////////
 
 bool List::emplyList(void)
 {
@@ -28,8 +36,27 @@ bool List::emplyList(void)
 // - _value
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
-
 void List::insertToHead(int _value)
+{
+	Nodo* nuevo = new Nodo(_value);
+	if (emplyList()) {
+		this->actual = nuevo;
+	}
+	else {
+		nuevo->setNext(first);
+	}
+	this->first = nuevo;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       List::insertToTail(int _value)
+// Purpose:    Implementation of List::insertToTail()
+// Parameters:
+// - _value
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void List::insertToTail(int _value)
 {
 	Nodo* nuevo = new Nodo(_value);
 	if (emplyList())
@@ -44,19 +71,6 @@ void List::insertToHead(int _value)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       List::insertToTail(int _value)
-// Purpose:    Implementation of List::insertToTail()
-// Parameters:
-// - _value
-// Return:     void
-////////////////////////////////////////////////////////////////////////
-
-void List::insertToTail(int _value)
-{
-	// TODO : implement
-}
-
-////////////////////////////////////////////////////////////////////////
 // Name:       List::deleteToHead()
 // Purpose:    Implementation of List::deleteToHead()
 // Return:     void
@@ -64,18 +78,41 @@ void List::insertToTail(int _value)
 
 void List::deleteToHead(void)
 {
-	Nodo* temporal = new Nodo(0);
-	temporal = this->first;
-	
-	if(this->first !=NULL){
-	temporal = temporal->getNext();
-	free(temporal);
-	}else {
-	cout << endl << " La lista se encuentra Vacia " << endl << endl;
+	Nodo* actual = new Nodo(0);
+	actual = first;
+	Nodo* last = new Nodo(0);
+	last = NULL;
+	bool find = false;
+
+	if (first != NULL) {
+
+		while (actual != NULL && find != true) {
+
+			if (actual == first) {
+				first = first->getNext();
+			}
+			else if (actual == first->getNext()) {
+				last->setNext(NULL);
+				first->setNext(last);
+			}
+			else {
+				actual->setNext(last->getNext());
+			}
+
+
+
+			find = true;
+		}
+		last = actual;
+		actual = actual->getNext();
+
 	}
-	
-	return temporal;
+	else {
+		cout << endl << " La cola se encuentra Vacia " << endl << endl;
+	}
 }
+
+
 
 ////////////////////////////////////////////////////////////////////////
 // Name:       List::deleteToTail()
@@ -98,7 +135,7 @@ void List::deleteToTail(void)
 
 
 			}
-			cout << "\n Nodo Eliminado\n\n";
+
 			free(temporal->getNext());
 			temporal->setNext(NULL);
 		}
@@ -198,4 +235,3 @@ List::~List()
 {
 	// TODO : implement
 }
-
