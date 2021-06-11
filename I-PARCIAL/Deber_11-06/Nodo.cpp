@@ -1,9 +1,17 @@
-/***********************************************************************
+//********************************************************************************************
+/* Universidad de las Fuerzas Armadas "ESPE"
+* Software
+* Autores: Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés
+* Deber de Listas
+* Fecha creación: 09/06/2021
+* Fecha de modificación: 10/06/2021 */
+//********************************************************************************************
+/*************************
  * Module:  Nodo.cpp
  * Author:
- * Modified: miércoles, 09 de junio de 2021 19:54:24
+ * Modified: miÃ©rcoles, 09 de junio de 2021 19:54:24
  * Purpose: Implementation of the class Nodo
- ***********************************************************************/
+ *************************/
 
 #include "Nodo.h"
 
