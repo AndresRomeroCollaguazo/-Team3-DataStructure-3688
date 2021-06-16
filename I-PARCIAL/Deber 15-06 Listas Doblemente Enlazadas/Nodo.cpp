@@ -1,104 +1,35 @@
-/***********************************************************************
- * Module:  Nodo.cpp
- * Author:  Jorge
- * Modified: martes, 15 de junio de 2021 16:19:04
- * Purpose: Implementation of the class Nodo
- ***********************************************************************/
-
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores : Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés
+Deber de Listas
+Fecha creación : 13 / 06 / 2021
+Fecha de modificación : 15 / 06 / 2021 */
+*/
 #include "Nodo.h"
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Nodo::~Nodo()
-// Purpose:    Implementation of Nodo::~Nodo()
-// Return:     
-////////////////////////////////////////////////////////////////////////
-
-Nodo::~Nodo()
-{
-   // TODO : implement
+Nodo::Nodo(int _value) {
+	this->value = _value;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Nodo::getDate()
-// Purpose:    Implementation of Nodo::getDate()
-// Return:     int
-////////////////////////////////////////////////////////////////////////
-
-int Nodo::getDate(void)
-{
-   return date;
+Nodo* Nodo::getPrevious() {
+	return previous;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Nodo::setDate(int newDate)
-// Purpose:    Implementation of Nodo::setDate()
-// Parameters:
-// - newDate
-// Return:     void
-////////////////////////////////////////////////////////////////////////
-
-void Nodo::setDate(int newDate)
-{
-   date = newDate;
+void Nodo::setPrevious(Nodo* _nodo) {
+	this->previous = _nodo;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Nodo::getNext()
-// Purpose:    Implementation of Nodo::getNext()
-// Return:     Nodo*
-////////////////////////////////////////////////////////////////////////
-
-Nodo* Nodo::getNext(void)
-{
-   return next;
+Nodo* Nodo::getNext() {
+	return next;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Nodo::setNext(Nodo* newNext)
-// Purpose:    Implementation of Nodo::setNext()
-// Parameters:
-// - newNext
-// Return:     void
-////////////////////////////////////////////////////////////////////////
-
-void Nodo::setNext(Nodo* newNext)
-{
-   next = newNext;
+void Nodo::setNext(Nodo* _nodo) {
+	this->next = _nodo;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Nodo::Nodo(int value)
-// Purpose:    Implementation of Nodo::Nodo()
-// Parameters:
-// - value
-// Return:     
-////////////////////////////////////////////////////////////////////////
-
-Nodo::Nodo(int value)
-{
-   // TODO : implement
+int Nodo::getValue() {
+	return value;
 }
-
-////////////////////////////////////////////////////////////////////////
-// Name:       Nodo::getPrevious()
-// Purpose:    Implementation of Nodo::getPrevious()
-// Return:     Nodo*
-////////////////////////////////////////////////////////////////////////
-
-Nodo* Nodo::getPrevious(void)
-{
-   return previous;
-}
-
-////////////////////////////////////////////////////////////////////////
-// Name:       Nodo::setPrevious(Nodo* newPrevious)
-// Purpose:    Implementation of Nodo::setPrevious()
-// Parameters:
-// - newPrevious
-// Return:     void
-////////////////////////////////////////////////////////////////////////
-
-void Nodo::setPrevious(Nodo* newPrevious)
-{
-   previous = newPrevious;
+void Nodo::setValue(int _value) {
+	this->value = _value;
 }
