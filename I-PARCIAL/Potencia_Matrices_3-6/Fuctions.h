@@ -53,7 +53,13 @@ public:
    *@brief print Imprime la matriz
    *@param _matrix matriz
    */
-   void print(Matrix&);
+   	void print(Matrix&);
+	
+	
+	int** multiplication(Matrix& m, Matrix& m1, Matrix& mr);
+
+
+	void powM(Matrix& m, Matrix& m1, int p);
  
 private:
 
