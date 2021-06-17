@@ -16,7 +16,7 @@
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Pascal::Pacal(int _n, int _res)
+void Pascal::Pascal(int _n, int _res)
 {
     this->n = _n;
     this->res = _res;
@@ -151,7 +151,7 @@ void Pascal::set_n(int _n)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Pascal::pool(void)
+void Pascal::pool(int** _matrix)
 {
    for (int a = 0; a < get_n(); a++) {
         for (int b = 0; b < get_n(); b++) {
