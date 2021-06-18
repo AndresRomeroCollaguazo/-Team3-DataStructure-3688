@@ -35,11 +35,11 @@ void Operations::enter(Matrix matrix, int dim) {
     for (i = 0; i < dim; i++) {
     for (j = 0; j < dim; j++) {
         cout << "       POSICION[" << i + 1 << "]" << "[" << j + 1 << "] :";
-        strcpy(can, v.ingresar(""));
-        p = atoi(can);
+        //strcpy(can, v.ingresar(""));
+        //p = atoi(can);
        //*(*(matrix.get_matrix() + i) + j) = 0;
-        *(*(matrix.get_matrix() + i) + j) = p;
-            //cin >> (*(*(matrix.get_matrix() + i) + j));
+        //*(*(matrix.get_matrix() + i) + j) = p;
+        cin >> (*(*(matrix.get_matrix() + i) + j));
     }
     }
 }
