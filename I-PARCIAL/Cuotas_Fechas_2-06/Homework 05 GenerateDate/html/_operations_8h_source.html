@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Fichero Fuente Operations.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Fecha de las Cuotas</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Operations.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_operations_8h.html">Ir a la documentaciÃ³n de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*Universidad de las Fuerzas Armadas &quot;ESPE&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">Software</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">Autores: Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">Deber de Fechas de pago</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">Fecha creación: 28/05/2021</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">Fecha de modificación: 01/06/2021 */</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_date_8h.html">Date.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_operations.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_operations.html">Operations</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_operations.html#a065419dd158e508e9442e049ee4de5cc">is_laborable</a>(<a class="code" href="class_date.html">Date</a> date);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_operations.html#a3693c1262caa43693652e7dd40d2e9ec">generate_Week_Day</a>(<a class="code" href="class_date.html">Date</a> date);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_operations.html#a13823350876d4ea811da47f85dadfb1c">print</a>(<a class="code" href="class_date.html">Date</a>[], <span class="keywordtype">int</span> dues);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="class_date.html">Date</a> <a class="code" href="class_operations.html#a7a63196e8a8004055f6c1f123f895046">enter_Date</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_operations.html#a8c3f38e717bd62a5364cb4746da46cce">is_Leap</a>(<span class="keywordtype">int</span> year);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;};</div>
+<div class="ttc" id="a_date_8h_html"><div class="ttname"><a href="_date_8h.html">Date.h</a></div></div>
+<div class="ttc" id="aclass_date_html"><div class="ttname"><a href="class_date.html">Date</a></div><div class="ttdef"><b>Definition:</b> Date.h:10</div></div>
+<div class="ttc" id="aclass_operations_html"><div class="ttname"><a href="class_operations.html">Operations</a></div><div class="ttdef"><b>Definition:</b> Operations.h:11</div></div>
+<div class="ttc" id="aclass_operations_html_a065419dd158e508e9442e049ee4de5cc"><div class="ttname"><a href="class_operations.html#a065419dd158e508e9442e049ee4de5cc">Operations::is_laborable</a></div><div class="ttdeci">bool is_laborable(Date date)</div><div class="ttdef"><b>Definition:</b> Operations.cpp:72</div></div>
+<div class="ttc" id="aclass_operations_html_a13823350876d4ea811da47f85dadfb1c"><div class="ttname"><a href="class_operations.html#a13823350876d4ea811da47f85dadfb1c">Operations::print</a></div><div class="ttdeci">void print(Date[], int dues)</div><div class="ttdef"><b>Definition:</b> Operations.cpp:34</div></div>
+<div class="ttc" id="aclass_operations_html_a3693c1262caa43693652e7dd40d2e9ec"><div class="ttname"><a href="class_operations.html#a3693c1262caa43693652e7dd40d2e9ec">Operations::generate_Week_Day</a></div><div class="ttdeci">int generate_Week_Day(Date date)</div><div class="ttdef"><b>Definition:</b> Operations.cpp:14</div></div>
+<div class="ttc" id="aclass_operations_html_a7a63196e8a8004055f6c1f123f895046"><div class="ttname"><a href="class_operations.html#a7a63196e8a8004055f6c1f123f895046">Operations::enter_Date</a></div><div class="ttdeci">Date enter_Date()</div><div class="ttdef"><b>Definition:</b> Operations.cpp:43</div></div>
+<div class="ttc" id="aclass_operations_html_a8c3f38e717bd62a5364cb4746da46cce"><div class="ttname"><a href="class_operations.html#a8c3f38e717bd62a5364cb4746da46cce">Operations::is_Leap</a></div><div class="ttdeci">bool is_Leap(int year)</div><div class="ttdef"><b>Definition:</b> Operations.cpp:57</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
