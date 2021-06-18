@@ -1,0 +1,118 @@
+\hypertarget{class_operations}{}\doxysection{Referencia de la Clase Operations}
+\label{class_operations}\index{Operations@{Operations}}
+
+
+{\ttfamily \#include $<$Operations.\+h$>$}
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{class_operations_a413d15adc8f8f540c914b5aa57259787}{segment}} (int)
+\begin{DoxyCompactList}\small\item\em Reserva memoria para la matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operations_a748da31d9fc8f9069259c5a28aea7fcf}{wax}} (\mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Inicializa la matriz en cero. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operations_a5a8477bb8e50b35ce1bdb2d99a3e18ad}{enter}} (\mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Asigna Valores a la matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operations_aca96d90edbc67dc3d590575c420aade9}{multiply}} (\mbox{\hyperlink{class_matrix}{Matrix}}, \mbox{\hyperlink{class_matrix}{Matrix}}, \mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Multiplicacion de Matrices. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operations_a7b2b37c78418b263f12b64482ca84add}{print\+All}} (\mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Impresion de la matriz. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_operations_a5a8477bb8e50b35ce1bdb2d99a3e18ad}\label{class_operations_a5a8477bb8e50b35ce1bdb2d99a3e18ad}} 
+\index{Operations@{Operations}!enter@{enter}}
+\index{enter@{enter}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{enter()}{enter()}}
+{\footnotesize\ttfamily void Operations\+::enter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Asigna Valores a la matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matriz\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operations_aca96d90edbc67dc3d590575c420aade9}\label{class_operations_aca96d90edbc67dc3d590575c420aade9}} 
+\index{Operations@{Operations}!multiply@{multiply}}
+\index{multiply@{multiply}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{multiply()}{multiply()}}
+{\footnotesize\ttfamily void Operations\+::multiply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix\+\_\+1,  }\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix\+\_\+2,  }\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix\+\_\+r,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Multiplicacion de Matrices. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matrix\+\_\+a} & \\
+\hline
+{\em matrix\+\_\+b} & \\
+\hline
+{\em matrix\+\_\+c} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operations_a7b2b37c78418b263f12b64482ca84add}\label{class_operations_a7b2b37c78418b263f12b64482ca84add}} 
+\index{Operations@{Operations}!printAll@{printAll}}
+\index{printAll@{printAll}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{printAll()}{printAll()}}
+{\footnotesize\ttfamily void Operations\+::print\+All (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Impresion de la matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em \+\_\+matrix\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operations_a413d15adc8f8f540c914b5aa57259787}\label{class_operations_a413d15adc8f8f540c914b5aa57259787}} 
+\index{Operations@{Operations}!segment@{segment}}
+\index{segment@{segment}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{segment()}{segment()}}
+{\footnotesize\ttfamily int $\ast$$\ast$ Operations\+::segment (\begin{DoxyParamCaption}\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Reserva memoria para la matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+la dirreccion de una matriz 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_operations_a748da31d9fc8f9069259c5a28aea7fcf}\label{class_operations_a748da31d9fc8f9069259c5a28aea7fcf}} 
+\index{Operations@{Operations}!wax@{wax}}
+\index{wax@{wax}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{wax()}{wax()}}
+{\footnotesize\ttfamily void Operations\+::wax (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Inicializa la matriz en cero. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matriz\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_operations_8h}{Operations.\+h}}\item 
+\mbox{\hyperlink{_operations_8cpp}{Operations.\+cpp}}\end{DoxyCompactItemize}
