@@ -1,0 +1,162 @@
+\hypertarget{class_operations}{}\doxysection{Referencia de la Clase Operations}
+\label{class_operations}\index{Operations@{Operations}}
+
+
+{\ttfamily \#include $<$Operations.\+h$>$}
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{class_operations_a413d15adc8f8f540c914b5aa57259787}{segment}} (int)
+\begin{DoxyCompactList}\small\item\em Reserva memoria para la matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operations_a99621327c4a46462be7a86e6c420ae64}{wax}} (\mbox{\hyperlink{class_matrix}{Matrix}} matriz\+\_\+a, int longitud)
+\begin{DoxyCompactList}\small\item\em Inicializa la matriz en cero. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operations_a5a8477bb8e50b35ce1bdb2d99a3e18ad}{enter}} (\mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Asigna Valores a la matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operations_aca96d90edbc67dc3d590575c420aade9}{multiply}} (\mbox{\hyperlink{class_matrix}{Matrix}}, \mbox{\hyperlink{class_matrix}{Matrix}}, \mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Multiplicacion de Matrices. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operations_aede07c436b32638263f8e739da83ca46}{print\+\_\+\+All}} (\mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Impresion de la matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operations_afed80c91995aed37d6411137901e8d19}{copy}} (\mbox{\hyperlink{class_matrix}{Matrix}}, \mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Copia los datos de una matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operations_a2d6e667b3ee7ceb54574a035bc5ca9bb}{boosted}} (\mbox{\hyperlink{class_matrix}{Matrix}}, \mbox{\hyperlink{class_matrix}{Matrix}}, int, int)
+\begin{DoxyCompactList}\small\item\em Eleva a un exponenete a las Matrices. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_operations_a2d6e667b3ee7ceb54574a035bc5ca9bb}\label{class_operations_a2d6e667b3ee7ceb54574a035bc5ca9bb}} 
+\index{Operations@{Operations}!boosted@{boosted}}
+\index{boosted@{boosted}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{boosted()}{boosted()}}
+{\footnotesize\ttfamily void Operations\+::boosted (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{m1,  }\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{mr,  }\item[{int}]{dim,  }\item[{int}]{potencia }\end{DoxyParamCaption})}
+
+
+
+Eleva a un exponenete a las Matrices. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matrix\+\_\+a} & \\
+\hline
+{\em matrix\+\_\+b} & \\
+\hline
+{\em longitud} & \\
+\hline
+{\em exponente} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operations_afed80c91995aed37d6411137901e8d19}\label{class_operations_afed80c91995aed37d6411137901e8d19}} 
+\index{Operations@{Operations}!copy@{copy}}
+\index{copy@{copy}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{copy()}{copy()}}
+{\footnotesize\ttfamily void Operations\+::copy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{m1,  }\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{m2,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Copia los datos de una matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em \+\_\+matrix\+\_\+a} & \\
+\hline
+{\em \+\_\+matrix\+\_\+b} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operations_a5a8477bb8e50b35ce1bdb2d99a3e18ad}\label{class_operations_a5a8477bb8e50b35ce1bdb2d99a3e18ad}} 
+\index{Operations@{Operations}!enter@{enter}}
+\index{enter@{enter}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{enter()}{enter()}}
+{\footnotesize\ttfamily void Operations\+::enter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Asigna Valores a la matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matriz\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operations_aca96d90edbc67dc3d590575c420aade9}\label{class_operations_aca96d90edbc67dc3d590575c420aade9}} 
+\index{Operations@{Operations}!multiply@{multiply}}
+\index{multiply@{multiply}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{multiply()}{multiply()}}
+{\footnotesize\ttfamily void Operations\+::multiply (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix\+\_\+1,  }\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix\+\_\+2,  }\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix\+\_\+r,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Multiplicacion de Matrices. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matrix\+\_\+a} & \\
+\hline
+{\em matrix\+\_\+b} & \\
+\hline
+{\em matrix\+\_\+c} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operations_aede07c436b32638263f8e739da83ca46}\label{class_operations_aede07c436b32638263f8e739da83ca46}} 
+\index{Operations@{Operations}!print\_All@{print\_All}}
+\index{print\_All@{print\_All}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{print\_All()}{print\_All()}}
+{\footnotesize\ttfamily void Operations\+::print\+\_\+\+All (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Impresion de la matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em \+\_\+matrix\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operations_a413d15adc8f8f540c914b5aa57259787}\label{class_operations_a413d15adc8f8f540c914b5aa57259787}} 
+\index{Operations@{Operations}!segment@{segment}}
+\index{segment@{segment}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{segment()}{segment()}}
+{\footnotesize\ttfamily int $\ast$$\ast$ Operations\+::segment (\begin{DoxyParamCaption}\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Reserva memoria para la matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+la dirreccion de una matriz 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_operations_a99621327c4a46462be7a86e6c420ae64}\label{class_operations_a99621327c4a46462be7a86e6c420ae64}} 
+\index{Operations@{Operations}!wax@{wax}}
+\index{wax@{wax}!Operations@{Operations}}
+\doxysubsubsection{\texorpdfstring{wax()}{wax()}}
+{\footnotesize\ttfamily void Operations\+::wax (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matriz\+\_\+a,  }\item[{int}]{longitud }\end{DoxyParamCaption})}
+
+
+
+Inicializa la matriz en cero. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matriz\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_operations_8h}{Operations.\+h}}\item 
+\mbox{\hyperlink{_operations_8cpp}{Operations.\+cpp}}\end{DoxyCompactItemize}
