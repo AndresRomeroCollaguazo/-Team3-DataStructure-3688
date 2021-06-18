@@ -1,0 +1,198 @@
+\hypertarget{class_operation}{}\doxysection{Referencia de la Clase Operation}
+\label{class_operation}\index{Operation@{Operation}}
+
+
+{\ttfamily \#include $<$Operation.\+h$>$}
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{class_operation_ad3a919de1f20036eb0b6e983302bc309}{segmentar}} (int)
+\begin{DoxyCompactList}\small\item\em Reserva memoria para la matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_a186a814385834f7ea5ca8dfe04d0906f}{encerar}} (\mbox{\hyperlink{class_matrix}{Matrix}} matriz\+\_\+a, int longitud)
+\begin{DoxyCompactList}\small\item\em Inicializa la matriz en cero. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_a125e53f2c91addbb976cbeea464c214f}{ingresar}} (\mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Asigna Valores a la matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_a40e22ae014281173162edeed459b2f3d}{calcular}} (\mbox{\hyperlink{class_matrix}{Matrix}}, \mbox{\hyperlink{class_matrix}{Matrix}}, \mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Multiplicacion de Matrices. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_ac16a4b739990a5fcb8eaabfbb0caa8de}{imprimir}} (\mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Impresion de la matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_a1ef69ae063fc41d04101e5032bef115b}{copiar\+\_\+matriz}} (\mbox{\hyperlink{class_matrix}{Matrix}}, \mbox{\hyperlink{class_matrix}{Matrix}}, int)
+\begin{DoxyCompactList}\small\item\em Copia los datos de una matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_a3455e968c441f3cd27f783633ac23d39}{calcular\+\_\+potencia}} (\mbox{\hyperlink{class_matrix}{Matrix}}, \mbox{\hyperlink{class_matrix}{Matrix}}, int, int)
+\begin{DoxyCompactList}\small\item\em Calcula la potencia de una matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_a656b82c392c2e194b58063fe8c99d7a4}{semi\+\_\+magic\+\_\+square}} (\mbox{\hyperlink{class_matrix}{Matrix}} matriz\+\_\+a, int longitud)
+\begin{DoxyCompactList}\small\item\em Llena matriz con datos numericos sin que sus diagonales sean iguales. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_a0fb149b18f84f954cc5fc2bb1e7146eb}{permutate}} (\mbox{\hyperlink{class_matrix}{Matrix}} matriz\+\_\+a, int longitud)
+\begin{DoxyCompactList}\small\item\em Intercambia filas y columnas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_operation_a40e22ae014281173162edeed459b2f3d}\label{class_operation_a40e22ae014281173162edeed459b2f3d}} 
+\index{Operation@{Operation}!calcular@{calcular}}
+\index{calcular@{calcular}!Operation@{Operation}}
+\doxysubsubsection{\texorpdfstring{calcular()}{calcular()}}
+{\footnotesize\ttfamily void Operation\+::calcular (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix\+\_\+1,  }\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix\+\_\+2,  }\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix\+\_\+r,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Multiplicacion de Matrices. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matrix\+\_\+a} & \\
+\hline
+{\em matrix\+\_\+b} & \\
+\hline
+{\em matrix\+\_\+c} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operation_a3455e968c441f3cd27f783633ac23d39}\label{class_operation_a3455e968c441f3cd27f783633ac23d39}} 
+\index{Operation@{Operation}!calcular\_potencia@{calcular\_potencia}}
+\index{calcular\_potencia@{calcular\_potencia}!Operation@{Operation}}
+\doxysubsubsection{\texorpdfstring{calcular\_potencia()}{calcular\_potencia()}}
+{\footnotesize\ttfamily void Operation\+::calcular\+\_\+potencia (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{m1,  }\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{mr,  }\item[{int}]{dim,  }\item[{int}]{potencia }\end{DoxyParamCaption})}
+
+
+
+Calcula la potencia de una matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em \+\_\+matrix\+\_\+a} & \\
+\hline
+{\em \+\_\+matrix\+\_\+b} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operation_a1ef69ae063fc41d04101e5032bef115b}\label{class_operation_a1ef69ae063fc41d04101e5032bef115b}} 
+\index{Operation@{Operation}!copiar\_matriz@{copiar\_matriz}}
+\index{copiar\_matriz@{copiar\_matriz}!Operation@{Operation}}
+\doxysubsubsection{\texorpdfstring{copiar\_matriz()}{copiar\_matriz()}}
+{\footnotesize\ttfamily void Operation\+::copiar\+\_\+matriz (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{m1,  }\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{m2,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Copia los datos de una matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em \+\_\+matrix\+\_\+a} & \\
+\hline
+{\em \+\_\+matrix\+\_\+b} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operation_a186a814385834f7ea5ca8dfe04d0906f}\label{class_operation_a186a814385834f7ea5ca8dfe04d0906f}} 
+\index{Operation@{Operation}!encerar@{encerar}}
+\index{encerar@{encerar}!Operation@{Operation}}
+\doxysubsubsection{\texorpdfstring{encerar()}{encerar()}}
+{\footnotesize\ttfamily void Operation\+::encerar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matriz\+\_\+a,  }\item[{int}]{longitud }\end{DoxyParamCaption})}
+
+
+
+Inicializa la matriz en cero. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matriz\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operation_ac16a4b739990a5fcb8eaabfbb0caa8de}\label{class_operation_ac16a4b739990a5fcb8eaabfbb0caa8de}} 
+\index{Operation@{Operation}!imprimir@{imprimir}}
+\index{imprimir@{imprimir}!Operation@{Operation}}
+\doxysubsubsection{\texorpdfstring{imprimir()}{imprimir()}}
+{\footnotesize\ttfamily void Operation\+::imprimir (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Impresion de la matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em \+\_\+matrix\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operation_a125e53f2c91addbb976cbeea464c214f}\label{class_operation_a125e53f2c91addbb976cbeea464c214f}} 
+\index{Operation@{Operation}!ingresar@{ingresar}}
+\index{ingresar@{ingresar}!Operation@{Operation}}
+\doxysubsubsection{\texorpdfstring{ingresar()}{ingresar()}}
+{\footnotesize\ttfamily void Operation\+::ingresar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matrix,  }\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Asigna Valores a la matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matriz\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operation_a0fb149b18f84f954cc5fc2bb1e7146eb}\label{class_operation_a0fb149b18f84f954cc5fc2bb1e7146eb}} 
+\index{Operation@{Operation}!permutate@{permutate}}
+\index{permutate@{permutate}!Operation@{Operation}}
+\doxysubsubsection{\texorpdfstring{permutate()}{permutate()}}
+{\footnotesize\ttfamily void Operation\+::permutate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matriz\+\_\+a,  }\item[{int}]{longitud }\end{DoxyParamCaption})}
+
+
+
+Intercambia filas y columnas. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matriz\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_operation_ad3a919de1f20036eb0b6e983302bc309}\label{class_operation_ad3a919de1f20036eb0b6e983302bc309}} 
+\index{Operation@{Operation}!segmentar@{segmentar}}
+\index{segmentar@{segmentar}!Operation@{Operation}}
+\doxysubsubsection{\texorpdfstring{segmentar()}{segmentar()}}
+{\footnotesize\ttfamily int $\ast$$\ast$ Operation\+::segmentar (\begin{DoxyParamCaption}\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Reserva memoria para la matriz. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+la dirreccion de una matriz 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_operation_a656b82c392c2e194b58063fe8c99d7a4}\label{class_operation_a656b82c392c2e194b58063fe8c99d7a4}} 
+\index{Operation@{Operation}!semi\_magic\_square@{semi\_magic\_square}}
+\index{semi\_magic\_square@{semi\_magic\_square}!Operation@{Operation}}
+\doxysubsubsection{\texorpdfstring{semi\_magic\_square()}{semi\_magic\_square()}}
+{\footnotesize\ttfamily void Operation\+::semi\+\_\+magic\+\_\+square (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix}{Matrix}}}]{matriz\+\_\+a,  }\item[{int}]{longitud }\end{DoxyParamCaption})}
+
+
+
+Llena matriz con datos numericos sin que sus diagonales sean iguales. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matriz\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_operation_8h}{Operation.\+h}}\item 
+\mbox{\hyperlink{_opeeration_8cpp}{Opeeration.\+cpp}}\end{DoxyCompactItemize}
