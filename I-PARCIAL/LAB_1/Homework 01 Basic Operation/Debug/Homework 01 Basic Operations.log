@@ -1,0 +1,77 @@
+﻿  main.cpp
+C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Homework 01 Basic Operations\main.cpp(16,33): warning C4081: se esperaba 'newline'; se encontró '.'
+C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Homework 01 Basic Operations\main.cpp(26,15): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Homework 01 Basic Operations\main.cpp(29,15): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Homework 01 Basic Operations\main.cpp(36,57): warning C4244: 'argumento': conversión de 'datatype' a 'datatype'; posible pérdida de datos
+          with
+          [
+              datatype=int
+          ]
+          and
+          [
+              datatype=float
+          ]
+C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Homework 01 Basic Operations\main.cpp(36,41): warning C4244: 'argumento': conversión de 'datatype' a 'datatype'; posible pérdida de datos
+          with
+          [
+              datatype=int
+          ]
+          and
+          [
+              datatype=float
+          ]
+C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Homework 01 Basic Operations\main.cpp(37,66): warning C4244: 'argumento': conversión de 'datatype' a 'datatype'; posible pérdida de datos
+          with
+          [
+              datatype=int
+          ]
+          and
+          [
+              datatype=float
+          ]
+C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Homework 01 Basic Operations\main.cpp(37,50): warning C4244: 'argumento': conversión de 'datatype' a 'datatype'; posible pérdida de datos
+          with
+          [
+              datatype=int
+          ]
+          and
+          [
+              datatype=float
+          ]
+C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Homework 01 Basic Operations\main.cpp(38,78): warning C4244: 'argumento': conversión de 'datatype' a 'datatype'; posible pérdida de datos
+          with
+          [
+              datatype=int
+          ]
+          and
+          [
+              datatype=float
+          ]
+C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Homework 01 Basic Operations\main.cpp(38,62): warning C4244: 'argumento': conversión de 'datatype' a 'datatype'; posible pérdida de datos
+          with
+          [
+              datatype=int
+          ]
+          and
+          [
+              datatype=float
+          ]
+C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Homework 01 Basic Operations\main.cpp(39,66): warning C4244: 'argumento': conversión de 'datatype' a 'datatype'; posible pérdida de datos
+          with
+          [
+              datatype=int
+          ]
+          and
+          [
+              datatype=float
+          ]
+C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Homework 01 Basic Operations\main.cpp(39,50): warning C4244: 'argumento': conversión de 'datatype' a 'datatype'; posible pérdida de datos
+          with
+          [
+              datatype=int
+          ]
+          and
+          [
+              datatype=float
+          ]
+  Homework 01 Basic Operations.vcxproj -> C:\Users\Jorge\source\repos\Homework 01 Basic Operations\Debug\Homework 01 Basic Operations.exe
