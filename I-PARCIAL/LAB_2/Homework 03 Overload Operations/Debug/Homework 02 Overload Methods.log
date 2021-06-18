@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (Homework 02 Overload Methods.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  Data.cpp
+  main.cpp
+C:\Users\Jorge\source\repos\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(22,15): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Jorge\source\repos\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(26,15): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Jorge\source\repos\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(30,28): warning C4244: 'argumento': conversión de 'int' a 'Datum'; posible pérdida de datos
+          with
+          [
+              Datum=float
+          ]
+C:\Users\Jorge\source\repos\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(30,20): warning C4244: 'argumento': conversión de 'int' a 'Datum'; posible pérdida de datos
+          with
+          [
+              Datum=float
+          ]
+  Operations.cpp
+  Validate.cpp
+  Generando código...
+  Homework 02 Overload Methods.vcxproj -> C:\Users\Jorge\source\repos\Homework 02 Overload Methods\Debug\Homework 03 Overload Operations.exe
