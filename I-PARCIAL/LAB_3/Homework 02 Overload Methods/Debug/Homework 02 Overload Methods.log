@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(14,11): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(39,29): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(47,72): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(56,28): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(80,62): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(81,65): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(81,59): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(107,35): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(107,29): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(111,87): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(112,91): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Homework 02 Overload Methods\main.cpp(113,93): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+  Homework 02 Overload Methods.vcxproj -> C:\Users\Jorge\source\repos\LAB I\Homework 02 Overload Methods\Debug\Homework 02 Overload Methods.exe
