@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Methods">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAQQAAAAAAAAAAAABAIAAQNAAAAAAAAAAAFA=</HashCode>
+      <FileName>MethodsA.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MethodsHP">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAaAAAAAAAAAAAAAAGAAAAACCABgAAAAAAAAA=</HashCode>
+      <FileName>MethodsHP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperadorJ">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAA=</HashCode>
+      <FileName>OperadorJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperatorHP">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAQAEAAAAAAAAAAAAAAAAgAAAAAAg=</HashCode>
+      <FileName>OperatorHP.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="method" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OperatorM">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIEA=</HashCode>
+      <FileName>OperatorM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Operators">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAQAEAAAAAAAAAAAAAAAAgAAAAIAA=</HashCode>
+      <FileName>OperatorsA.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="method" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Square">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Square.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
