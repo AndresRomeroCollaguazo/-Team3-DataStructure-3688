@@ -1,8 +1,11 @@
 #include "pch.h"
 #include "CppUnitTest.h"
+#include <iostream>
+#include "../Datum.h"
+#include "../Fuction.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
-
+using namespace std;
 namespace UnitTest1
 {
 	TEST_CLASS(UnitTest1)
