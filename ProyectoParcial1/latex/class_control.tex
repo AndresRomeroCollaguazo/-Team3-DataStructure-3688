@@ -1,0 +1,179 @@
+\hypertarget{class_control}{}\doxysection{Control Class Reference}
+\label{class_control}\index{Control@{Control}}
+
+
+Clase \mbox{\hyperlink{class_control}{Control}} que contiene el Menu del aplicativo.  
+
+
+
+
+{\ttfamily \#include $<$Control.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_control_a79dff433cb22ce3f4fb7570819df129d}{view\+Menu}} (\mbox{\hyperlink{class_lista}{Lista}} $\ast$)
+\begin{DoxyCompactList}\small\item\em view\+Menu Muestrael menu \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_control_af84822cf7aa89cc72e5fa82cdd1e526d}{gotoxy}} (USHORT x, USHORT y)
+\begin{DoxyCompactList}\small\item\em gotoxy Mueve el cursor tipo flecha \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_control_a0db40eda659f87a942584608caf9fd48}{use\+Menu}} (const char titulo\mbox{[}$\,$\mbox{]}, const char $\ast$opciones\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em use\+Menu Despliega las opciones que contiene el Menu \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_control_a9cd0c6ed698ecac2cace10182f97fa10}{use\+Menu2}} (const char titulo\mbox{[}$\,$\mbox{]}, const char $\ast$admin\mbox{[}$\,$\mbox{]}, int n2)
+\begin{DoxyCompactList}\small\item\em only\+Int\+Control Valida los numeros enteros ingresados desde teclado \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_control_a7d850c39a3f0dd55c8cd941e08fb2466}{use\+Menu3}} (const char titulo\mbox{[}$\,$\mbox{]}, const char $\ast$user\mbox{[}$\,$\mbox{]}, int n3)
+\begin{DoxyCompactList}\small\item\em only\+Int\+Control Valida los numeros enteros ingresados desde teclado \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_control_af9c985feaca1fa8043e43cd0251631c2}{only\+Int\+Control}} (const char $\ast$)
+\begin{DoxyCompactList}\small\item\em only\+Int\+Control Valida los numeros enteros ingresados desde teclado \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{class_control_a94eb5edcd4e2a45b219cc640fcaf528f}{only\+Char\+Control}} (void)
+\begin{DoxyCompactList}\small\item\em only\+Char\+Control Permite que el cursos se mueva de arriba hacia abajo \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_control_abb722ccc65416610851aaa094c4afd3c}{dibujar\+Cuadro}} (int x1, int y1, int x2, int y2)
+\begin{DoxyCompactList}\small\item\em dibujar\+Cuadro Permite que el se cree un marco al rededor de la ventana de ejecucion \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_control_a7f875c53da3c11a5bf9e4c65027a9383}{gotoxyS}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em gotoxy Mueve el contemnido \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase \mbox{\hyperlink{class_control}{Control}} que contiene el Menu del aplicativo. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_control_abb722ccc65416610851aaa094c4afd3c}\label{class_control_abb722ccc65416610851aaa094c4afd3c}} 
+\index{Control@{Control}!dibujarCuadro@{dibujarCuadro}}
+\index{dibujarCuadro@{dibujarCuadro}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{dibujarCuadro()}{dibujarCuadro()}}
+{\footnotesize\ttfamily void Control\+::dibujar\+Cuadro (\begin{DoxyParamCaption}\item[{int}]{x1,  }\item[{int}]{y1,  }\item[{int}]{x2,  }\item[{int}]{y2 }\end{DoxyParamCaption})}
+
+
+
+dibujar\+Cuadro Permite que el se cree un marco al rededor de la ventana de ejecucion 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_control_af84822cf7aa89cc72e5fa82cdd1e526d}\label{class_control_af84822cf7aa89cc72e5fa82cdd1e526d}} 
+\index{Control@{Control}!gotoxy@{gotoxy}}
+\index{gotoxy@{gotoxy}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{gotoxy()}{gotoxy()}}
+{\footnotesize\ttfamily int Control\+::gotoxy (\begin{DoxyParamCaption}\item[{USHORT}]{x,  }\item[{USHORT}]{y }\end{DoxyParamCaption})}
+
+
+
+gotoxy Mueve el cursor tipo flecha 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x,y} & Coordenadas de ubicacion de la flecha \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_control_a7f875c53da3c11a5bf9e4c65027a9383}\label{class_control_a7f875c53da3c11a5bf9e4c65027a9383}} 
+\index{Control@{Control}!gotoxyS@{gotoxyS}}
+\index{gotoxyS@{gotoxyS}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{gotoxyS()}{gotoxyS()}}
+{\footnotesize\ttfamily void Control\+::gotoxyS (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+gotoxy Mueve el contemnido 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x,y} & Coordenadas de ubicacion en la ventana \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_control_a94eb5edcd4e2a45b219cc640fcaf528f}\label{class_control_a94eb5edcd4e2a45b219cc640fcaf528f}} 
+\index{Control@{Control}!onlyCharControl@{onlyCharControl}}
+\index{onlyCharControl@{onlyCharControl}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{onlyCharControl()}{onlyCharControl()}}
+{\footnotesize\ttfamily char Control\+::only\+Char\+Control (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+only\+Char\+Control Permite que el cursos se mueva de arriba hacia abajo 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_control_af9c985feaca1fa8043e43cd0251631c2}\label{class_control_af9c985feaca1fa8043e43cd0251631c2}} 
+\index{Control@{Control}!onlyIntControl@{onlyIntControl}}
+\index{onlyIntControl@{onlyIntControl}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{onlyIntControl()}{onlyIntControl()}}
+{\footnotesize\ttfamily char $\ast$ Control\+::only\+Int\+Control (\begin{DoxyParamCaption}\item[{const char $\ast$}]{msj }\end{DoxyParamCaption})}
+
+
+
+only\+Int\+Control Valida los numeros enteros ingresados desde teclado 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char} & Solo admite numeros \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_control_a0db40eda659f87a942584608caf9fd48}\label{class_control_a0db40eda659f87a942584608caf9fd48}} 
+\index{Control@{Control}!useMenu@{useMenu}}
+\index{useMenu@{useMenu}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{useMenu()}{useMenu()}}
+{\footnotesize\ttfamily int Control\+::use\+Menu (\begin{DoxyParamCaption}\item[{const char}]{titulo\mbox{[}$\,$\mbox{]},  }\item[{const char $\ast$}]{opciones\mbox{[}$\,$\mbox{]},  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+use\+Menu Despliega las opciones que contiene el Menu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em titulo,opciones} & Son los nombres de las opciones que contiene el Menu \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_control_a9cd0c6ed698ecac2cace10182f97fa10}\label{class_control_a9cd0c6ed698ecac2cace10182f97fa10}} 
+\index{Control@{Control}!useMenu2@{useMenu2}}
+\index{useMenu2@{useMenu2}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{useMenu2()}{useMenu2()}}
+{\footnotesize\ttfamily int Control\+::use\+Menu2 (\begin{DoxyParamCaption}\item[{const char}]{titulo\mbox{[}$\,$\mbox{]},  }\item[{const char $\ast$}]{admin\mbox{[}$\,$\mbox{]},  }\item[{int}]{n2 }\end{DoxyParamCaption})}
+
+
+
+only\+Int\+Control Valida los numeros enteros ingresados desde teclado 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char} & Solo admite numeros \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_control_a7d850c39a3f0dd55c8cd941e08fb2466}\label{class_control_a7d850c39a3f0dd55c8cd941e08fb2466}} 
+\index{Control@{Control}!useMenu3@{useMenu3}}
+\index{useMenu3@{useMenu3}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{useMenu3()}{useMenu3()}}
+{\footnotesize\ttfamily int Control\+::use\+Menu3 (\begin{DoxyParamCaption}\item[{const char}]{titulo\mbox{[}$\,$\mbox{]},  }\item[{const char $\ast$}]{user\mbox{[}$\,$\mbox{]},  }\item[{int}]{n3 }\end{DoxyParamCaption})}
+
+
+
+only\+Int\+Control Valida los numeros enteros ingresados desde teclado 
+
+
+\begin{DoxyParams}{Parameters}
+{\em char} & Solo admite numeros \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_control_a79dff433cb22ce3f4fb7570819df129d}\label{class_control_a79dff433cb22ce3f4fb7570819df129d}} 
+\index{Control@{Control}!viewMenu@{viewMenu}}
+\index{viewMenu@{viewMenu}!Control@{Control}}
+\doxysubsubsection{\texorpdfstring{viewMenu()}{viewMenu()}}
+{\footnotesize\ttfamily void Control\+::view\+Menu (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_lista}{Lista}} $\ast$}]{cuentas }\end{DoxyParamCaption})}
+
+
+
+view\+Menu Muestrael menu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_control_8h}{Control.\+h}}\item 
+\mbox{\hyperlink{_control_8cpp}{Control.\+cpp}}\end{DoxyCompactItemize}

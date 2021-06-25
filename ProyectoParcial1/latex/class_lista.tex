@@ -1,0 +1,249 @@
+\hypertarget{class_lista}{}\doxysection{Lista Class Reference}
+\label{class_lista}\index{Lista@{Lista}}
+
+
+\mbox{\hyperlink{class_lista}{Lista}} clase \mbox{\hyperlink{class_lista}{Lista}} de cualquier tipo.  
+
+
+
+
+{\ttfamily \#include $<$Lista.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_lista_a1f668b36909182ef1360b48503529a31}{Lista}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_lista}{Lista}} constructor de la clase \mbox{\hyperlink{class_lista}{Lista}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lista_a17d789fe964a8b04722832c38320c737}{insertar\+Inicio}} (\mbox{\hyperlink{class_cuenta}{Cuenta}})
+\begin{DoxyCompactList}\small\item\em insetar\+Inicio inserta al inicio de la lista \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lista_a237e4f6a3933f89c54ffaf8427aa78a4}{modificar\+Nodo}} (string, float)
+\begin{DoxyCompactList}\small\item\em modificar\+Nodo modifica el nodo para modificar un saldo de una cuenta de la lista \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lista_a5cbfc7c7db22ebf2fdb282bf38bf2e2d}{modificar\+Nodo}} (string id, double interes, double deuda, int cuotas)
+\item 
+\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$ \mbox{\hyperlink{class_lista_a720cf36730306ba18356d65bb81e0e61}{get\+Nodo}} ()
+\begin{DoxyCompactList}\small\item\em get\+Nodo Obtiene el nodo de la lista \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lista_a437a10590a2f0381ead115bbeb343147}{set\+Nodo}} (\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$)
+\begin{DoxyCompactList}\small\item\em set\+Nodo Setea el nodo de la lista \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_lista_ab84293742dc7516fac8312e5b52d0309}{verificar\+Usuario}} (std\+::string usuario, std\+::string contrasena)
+\item 
+\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$ \mbox{\hyperlink{class_lista_a5e18a102c6680a12d423ada1927ce92f}{retornar\+Usuario}} (std\+::string usuario, std\+::string contrasena)
+\item 
+bool \mbox{\hyperlink{class_lista_a2c3a5c204c4c68770b7adb5ebe804d8c}{lista\+Vacia}} ()
+\begin{DoxyCompactList}\small\item\em lista\+Vacia verifica si la lista esta vacia \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lista_aae33cc3e8cb6f8841b4e7f01c2ce43f7}{to\+String}} ()
+\begin{DoxyCompactList}\small\item\em to\+String Imprime la informacion de la lista \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_lista_abfe71fe0f916e31c241bb1ab4338bc84}{tamanio}} ()
+\begin{DoxyCompactList}\small\item\em tamanio Devuelve el tamanio de la lista \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_lista_adb86adcd2ed2c693f400f7e4f5a5ff4b}{ver\+Cedulas}} (std\+::string)
+\begin{DoxyCompactList}\small\item\em ver\+Cedulas verifica si la cedula no se repite en la lista \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_lista_a68239d7daa0e457415631bf3ca0c86e8}{ver\+Telefono}} (std\+::string)
+\begin{DoxyCompactList}\small\item\em ver\+Telefono verifica si el telefono no se repite en la lista \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_lista}{Lista}} clase \mbox{\hyperlink{class_lista}{Lista}} de cualquier tipo. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_lista_a1f668b36909182ef1360b48503529a31}\label{class_lista_a1f668b36909182ef1360b48503529a31}} 
+\index{Lista@{Lista}!Lista@{Lista}}
+\index{Lista@{Lista}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{Lista()}{Lista()}}
+{\footnotesize\ttfamily Lista\+::\+Lista (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_lista}{Lista}} constructor de la clase \mbox{\hyperlink{class_lista}{Lista}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_lista_a720cf36730306ba18356d65bb81e0e61}\label{class_lista_a720cf36730306ba18356d65bb81e0e61}} 
+\index{Lista@{Lista}!getNodo@{getNodo}}
+\index{getNodo@{getNodo}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{getNodo()}{getNodo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_nodo}{Nodo}} $\ast$ Lista\+::get\+Nodo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Nodo Obtiene el nodo de la lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nodo$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lista_a17d789fe964a8b04722832c38320c737}\label{class_lista_a17d789fe964a8b04722832c38320c737}} 
+\index{Lista@{Lista}!insertarInicio@{insertarInicio}}
+\index{insertarInicio@{insertarInicio}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{insertarInicio()}{insertarInicio()}}
+{\footnotesize\ttfamily void Lista\+::insertar\+Inicio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_cuenta}{Cuenta}}}]{dato }\end{DoxyParamCaption})}
+
+
+
+insetar\+Inicio inserta al inicio de la lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_cuenta}{Cuenta}}} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_lista_a2c3a5c204c4c68770b7adb5ebe804d8c}\label{class_lista_a2c3a5c204c4c68770b7adb5ebe804d8c}} 
+\index{Lista@{Lista}!listaVacia@{listaVacia}}
+\index{listaVacia@{listaVacia}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{listaVacia()}{listaVacia()}}
+{\footnotesize\ttfamily bool Lista\+::lista\+Vacia (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+lista\+Vacia verifica si la lista esta vacia 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lista_a5cbfc7c7db22ebf2fdb282bf38bf2e2d}\label{class_lista_a5cbfc7c7db22ebf2fdb282bf38bf2e2d}} 
+\index{Lista@{Lista}!modificarNodo@{modificarNodo}}
+\index{modificarNodo@{modificarNodo}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{modificarNodo()}{modificarNodo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Lista\+::modificar\+Nodo (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{double}]{interes,  }\item[{double}]{deuda,  }\item[{int}]{cuotas }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_lista_a237e4f6a3933f89c54ffaf8427aa78a4}\label{class_lista_a237e4f6a3933f89c54ffaf8427aa78a4}} 
+\index{Lista@{Lista}!modificarNodo@{modificarNodo}}
+\index{modificarNodo@{modificarNodo}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{modificarNodo()}{modificarNodo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Lista\+::modificar\+Nodo (\begin{DoxyParamCaption}\item[{string}]{,  }\item[{float}]{ }\end{DoxyParamCaption})}
+
+
+
+modificar\+Nodo modifica el nodo para modificar un saldo de una cuenta de la lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em float} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lista_a5e18a102c6680a12d423ada1927ce92f}\label{class_lista_a5e18a102c6680a12d423ada1927ce92f}} 
+\index{Lista@{Lista}!retornarUsuario@{retornarUsuario}}
+\index{retornarUsuario@{retornarUsuario}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{retornarUsuario()}{retornarUsuario()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_nodo}{Nodo}} $\ast$ Lista\+::retornar\+Usuario (\begin{DoxyParamCaption}\item[{std\+::string}]{usuario,  }\item[{std\+::string}]{contrasena }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_lista_a437a10590a2f0381ead115bbeb343147}\label{class_lista_a437a10590a2f0381ead115bbeb343147}} 
+\index{Lista@{Lista}!setNodo@{setNodo}}
+\index{setNodo@{setNodo}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{setNodo()}{setNodo()}}
+{\footnotesize\ttfamily void Lista\+::set\+Nodo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$}]{nodo }\end{DoxyParamCaption})}
+
+
+
+set\+Nodo Setea el nodo de la lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Nodo$\ast$} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lista_abfe71fe0f916e31c241bb1ab4338bc84}\label{class_lista_abfe71fe0f916e31c241bb1ab4338bc84}} 
+\index{Lista@{Lista}!tamanio@{tamanio}}
+\index{tamanio@{tamanio}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{tamanio()}{tamanio()}}
+{\footnotesize\ttfamily int Lista\+::tamanio (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+tamanio Devuelve el tamanio de la lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lista_aae33cc3e8cb6f8841b4e7f01c2ce43f7}\label{class_lista_aae33cc3e8cb6f8841b4e7f01c2ce43f7}} 
+\index{Lista@{Lista}!toString@{toString}}
+\index{toString@{toString}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily void Lista\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+to\+String Imprime la informacion de la lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lista_adb86adcd2ed2c693f400f7e4f5a5ff4b}\label{class_lista_adb86adcd2ed2c693f400f7e4f5a5ff4b}} 
+\index{Lista@{Lista}!verCedulas@{verCedulas}}
+\index{verCedulas@{verCedulas}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{verCedulas()}{verCedulas()}}
+{\footnotesize\ttfamily bool Lista\+::ver\+Cedulas (\begin{DoxyParamCaption}\item[{std\+::string}]{cedula }\end{DoxyParamCaption})}
+
+
+
+ver\+Cedulas verifica si la cedula no se repite en la lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lista_ab84293742dc7516fac8312e5b52d0309}\label{class_lista_ab84293742dc7516fac8312e5b52d0309}} 
+\index{Lista@{Lista}!verificarUsuario@{verificarUsuario}}
+\index{verificarUsuario@{verificarUsuario}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{verificarUsuario()}{verificarUsuario()}}
+{\footnotesize\ttfamily bool Lista\+::verificar\+Usuario (\begin{DoxyParamCaption}\item[{std\+::string}]{usuario,  }\item[{std\+::string}]{contrasena }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_lista_a68239d7daa0e457415631bf3ca0c86e8}\label{class_lista_a68239d7daa0e457415631bf3ca0c86e8}} 
+\index{Lista@{Lista}!verTelefono@{verTelefono}}
+\index{verTelefono@{verTelefono}!Lista@{Lista}}
+\doxysubsubsection{\texorpdfstring{verTelefono()}{verTelefono()}}
+{\footnotesize\ttfamily bool Lista\+::ver\+Telefono (\begin{DoxyParamCaption}\item[{std\+::string}]{telefono }\end{DoxyParamCaption})}
+
+
+
+ver\+Telefono verifica si el telefono no se repite en la lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_lista_8h}{Lista.\+h}}\item 
+\mbox{\hyperlink{_lista_8cpp}{Lista.\+cpp}}\end{DoxyCompactItemize}

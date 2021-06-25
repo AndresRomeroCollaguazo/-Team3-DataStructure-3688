@@ -1,0 +1,170 @@
+\hypertarget{class_opciones}{}\doxysection{Opciones Class Reference}
+\label{class_opciones}\index{Opciones@{Opciones}}
+
+
+\mbox{\hyperlink{class_opciones}{Opciones}} clase opciones que posee diversas funciones de accion.  
+
+
+
+
+{\ttfamily \#include $<$Opciones.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_cuenta}{Cuenta}} \mbox{\hyperlink{class_opciones_adf76bcbc1f6f39af5d1f8b71e558839a}{Ingresarnueva\+Cuenta}} (\mbox{\hyperlink{class_lista}{Lista}} $\ast$cuentas)
+\begin{DoxyCompactList}\small\item\em Ingresarnueva\+Cuenta Ingresa una nueva cuenta desde teclado. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_opciones_a60e8d0b7aae277ce786aa332a91243f8}{realizar\+Retiro}} (\mbox{\hyperlink{class_lista}{Lista}} $\ast$cuentas)
+\begin{DoxyCompactList}\small\item\em realizar\+Retiro nos permite realizar un retiro de la cuenta \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_opciones_a1a1f889da46815a8eba1d1f31467a3b0}{realizar\+Deposito}} (\mbox{\hyperlink{class_lista}{Lista}} $\ast$cuentas)
+\begin{DoxyCompactList}\small\item\em realizar\+Deposito nos permite realizar un deposito en la cuenta \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_opciones_a2cb056a208ec2771e2e162bb65d3f629}{mostar\+Cuentas}} (\mbox{\hyperlink{class_lista}{Lista}} $\ast$cuentas)
+\begin{DoxyCompactList}\small\item\em mostrar\+Cuentas \mbox{\hyperlink{class_lista}{Lista}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_opciones_a4faeca8c2e72c9ae474d1b1992074ee2}{buscar\+Cuenta}} (\mbox{\hyperlink{class_lista}{Lista}} $\ast$cuentas)
+\begin{DoxyCompactList}\small\item\em buscar\+Cuenta busca la cuenta necesaria en la lista \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_opciones_a523f5dbfc1329c1b55101bc3d2337ad0}{buscar}} (\mbox{\hyperlink{class_lista}{Lista}} $\ast$cuentas, string)
+\begin{DoxyCompactList}\small\item\em buscar verifica si existe la cuenta en la lista \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_cuenta}{Cuenta}} \mbox{\hyperlink{class_opciones_a46bac65d21b93d6133278eb5decd5915}{buscar\+YTraer}} (\mbox{\hyperlink{class_lista}{Lista}} $\ast$cuentas, string)
+\begin{DoxyCompactList}\small\item\em buscar\+YTraer Busca una cuentra y la devuelve para su uso \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_opciones}{Opciones}} clase opciones que posee diversas funciones de accion. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_opciones_a523f5dbfc1329c1b55101bc3d2337ad0}\label{class_opciones_a523f5dbfc1329c1b55101bc3d2337ad0}} 
+\index{Opciones@{Opciones}!buscar@{buscar}}
+\index{buscar@{buscar}!Opciones@{Opciones}}
+\doxysubsubsection{\texorpdfstring{buscar()}{buscar()}}
+{\footnotesize\ttfamily bool Opciones\+::buscar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_lista}{Lista}} $\ast$}]{cuentas,  }\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+buscar verifica si existe la cuenta en la lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_lista}{Lista}}} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_opciones_a4faeca8c2e72c9ae474d1b1992074ee2}\label{class_opciones_a4faeca8c2e72c9ae474d1b1992074ee2}} 
+\index{Opciones@{Opciones}!buscarCuenta@{buscarCuenta}}
+\index{buscarCuenta@{buscarCuenta}!Opciones@{Opciones}}
+\doxysubsubsection{\texorpdfstring{buscarCuenta()}{buscarCuenta()}}
+{\footnotesize\ttfamily void Opciones\+::buscar\+Cuenta (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_lista}{Lista}} $\ast$}]{cuentas }\end{DoxyParamCaption})}
+
+
+
+buscar\+Cuenta busca la cuenta necesaria en la lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_lista}{Lista}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_opciones_a46bac65d21b93d6133278eb5decd5915}\label{class_opciones_a46bac65d21b93d6133278eb5decd5915}} 
+\index{Opciones@{Opciones}!buscarYTraer@{buscarYTraer}}
+\index{buscarYTraer@{buscarYTraer}!Opciones@{Opciones}}
+\doxysubsubsection{\texorpdfstring{buscarYTraer()}{buscarYTraer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_cuenta}{Cuenta}} Opciones\+::buscar\+YTraer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_lista}{Lista}} $\ast$}]{cuentas,  }\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+buscar\+YTraer Busca una cuentra y la devuelve para su uso 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_lista}{Lista}}} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_cuenta}{Cuenta}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_opciones_adf76bcbc1f6f39af5d1f8b71e558839a}\label{class_opciones_adf76bcbc1f6f39af5d1f8b71e558839a}} 
+\index{Opciones@{Opciones}!IngresarnuevaCuenta@{IngresarnuevaCuenta}}
+\index{IngresarnuevaCuenta@{IngresarnuevaCuenta}!Opciones@{Opciones}}
+\doxysubsubsection{\texorpdfstring{IngresarnuevaCuenta()}{IngresarnuevaCuenta()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_cuenta}{Cuenta}} Opciones\+::\+Ingresarnueva\+Cuenta (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_lista}{Lista}} $\ast$}]{cuentas }\end{DoxyParamCaption})}
+
+
+
+Ingresarnueva\+Cuenta Ingresa una nueva cuenta desde teclado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_lista}{Lista}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_cuenta}{Cuenta}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_opciones_a2cb056a208ec2771e2e162bb65d3f629}\label{class_opciones_a2cb056a208ec2771e2e162bb65d3f629}} 
+\index{Opciones@{Opciones}!mostarCuentas@{mostarCuentas}}
+\index{mostarCuentas@{mostarCuentas}!Opciones@{Opciones}}
+\doxysubsubsection{\texorpdfstring{mostarCuentas()}{mostarCuentas()}}
+{\footnotesize\ttfamily void Opciones\+::mostar\+Cuentas (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_lista}{Lista}} $\ast$}]{cuentas }\end{DoxyParamCaption})}
+
+
+
+mostrar\+Cuentas \mbox{\hyperlink{class_lista}{Lista}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_lista}{Lista}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_opciones_a1a1f889da46815a8eba1d1f31467a3b0}\label{class_opciones_a1a1f889da46815a8eba1d1f31467a3b0}} 
+\index{Opciones@{Opciones}!realizarDeposito@{realizarDeposito}}
+\index{realizarDeposito@{realizarDeposito}!Opciones@{Opciones}}
+\doxysubsubsection{\texorpdfstring{realizarDeposito()}{realizarDeposito()}}
+{\footnotesize\ttfamily void Opciones\+::realizar\+Deposito (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_lista}{Lista}} $\ast$}]{cuentas }\end{DoxyParamCaption})}
+
+
+
+realizar\+Deposito nos permite realizar un deposito en la cuenta 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_lista}{Lista}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_opciones_a60e8d0b7aae277ce786aa332a91243f8}\label{class_opciones_a60e8d0b7aae277ce786aa332a91243f8}} 
+\index{Opciones@{Opciones}!realizarRetiro@{realizarRetiro}}
+\index{realizarRetiro@{realizarRetiro}!Opciones@{Opciones}}
+\doxysubsubsection{\texorpdfstring{realizarRetiro()}{realizarRetiro()}}
+{\footnotesize\ttfamily void Opciones\+::realizar\+Retiro (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_lista}{Lista}} $\ast$}]{cuentas }\end{DoxyParamCaption})}
+
+
+
+realizar\+Retiro nos permite realizar un retiro de la cuenta 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_lista}{Lista}}} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_opciones_8h}{Opciones.\+h}}\item 
+\mbox{\hyperlink{_opciones_8cpp}{Opciones.\+cpp}}\end{DoxyCompactItemize}
