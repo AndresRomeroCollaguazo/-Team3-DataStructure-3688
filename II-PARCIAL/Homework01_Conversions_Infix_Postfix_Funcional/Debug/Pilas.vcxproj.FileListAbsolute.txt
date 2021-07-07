@@ -1,0 +1,5 @@
+C:\Users\Geovanna\Documents\PRES_COMP_A0J09_3688_ESTRUCTURA DE DATOS\PARCIAL I\Practica\2\Pilas\Debug\Pilas.exe
+C:\Users\Geovanna\Downloads\Pilas\Debug\Pilas.exe
+C:\Users\SEBAS\Desktop\ESTRUCTURAS DE DATOS\Nueva carpeta\Pilas\Debug\Pilas.exe
+C:\Users\HAMILTON\source\repos\P2\pruebasdeberes\Pilas\Debug\NotacionesDeber.exe
+C:\Users\HAMILTON\source\repos\P2\pruebasdeberes\NotacionesDeber\Debug\NotacionesDeber.exe
