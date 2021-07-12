@@ -1,0 +1,11 @@
+EXPORTS
+    Java_Validatedll_division = Java_Validatedll_division@16 @1
+    Java_Validatedll_division@16 @2
+    Java_Validatedll_multiplicacion = Java_Validatedll_multiplicacion@16 @3
+    Java_Validatedll_multiplicacion@16 @4
+    Java_Validatedll_resta = Java_Validatedll_resta@16 @5
+    Java_Validatedll_resta@16 @6
+    Java_Validatedll_suma = Java_Validatedll_suma@16 @7
+    Java_Validatedll_suma@16 @8
+    Java_Validatedll_validate_1L = Java_Validatedll_validate_1L@8 @9
+    Java_Validatedll_validate_1L@8 @10
