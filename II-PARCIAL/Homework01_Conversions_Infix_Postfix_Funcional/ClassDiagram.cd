@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Funcional">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAgQBAAAAAAAAAAAAAAAMAAAAA=</HashCode>
+      <FileName>Funcional.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="lista" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Lista">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAUAAAAAGgAAAAAgAACAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Lista.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Nodo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Nodo">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAEAAAACABABAQAAABAQAAAAAA=</HashCode>
+      <FileName>Nodo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Postfijo">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAABBAAAgQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Postfijo.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="lista" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Prefijo">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAgQAAAAAAAAAAAAAAEAAEAAAA=</HashCode>
+      <FileName>Prefijo.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="lista" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
