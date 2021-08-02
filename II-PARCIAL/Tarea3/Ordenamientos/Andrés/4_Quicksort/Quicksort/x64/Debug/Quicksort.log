@@ -1,8 +1,0 @@
-﻿  Control.cpp
-C:\Users\jrome\OneDrive\Escritorio\4_Quicksort\Quicksort\Control.cpp(18,18): warning C4838: la conversión de 'USHORT' en 'SHORT' requiere una conversión de restricción
-C:\Users\jrome\OneDrive\Escritorio\4_Quicksort\Quicksort\Control.cpp(18,20): warning C4838: la conversión de 'USHORT' en 'SHORT' requiere una conversión de restricción
-C:\Users\jrome\OneDrive\Escritorio\4_Quicksort\Quicksort\Vector.h(55,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-C:\Users\jrome\OneDrive\Escritorio\4_Quicksort\Quicksort\Vector.h(54): message : al compilar la función del miembro clase plantilla "void Vector<int>::generar(int)"
-C:\Users\jrome\OneDrive\Escritorio\4_Quicksort\Quicksort\Control.cpp(110): message : Vea la referencia a la creación de una instancia de la función plantilla "void Vector<int>::generar(int)" que se está compilando
-C:\Users\jrome\OneDrive\Escritorio\4_Quicksort\Quicksort\Control.cpp(97): message : Vea la referencia a la creación de una instancia de clase plantilla "Vector<int>" que se está compilando
-  Quicksort.vcxproj -> C:\Users\jrome\OneDrive\Escritorio\4_Quicksort\x64\Debug\Quicksort.exe
