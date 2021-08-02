@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ordenamientos: Fichero Fuente Control.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Ordenamientos
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Ordenamientos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Control.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_control_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//                  *Universidad de las Fuerzas Armadas &quot;ESPE&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  Software</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  Autores : Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//  Deber de Ordenamientos</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Fecha creación : 20 / 07 / 2021</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Fecha de modificación : 29 / 07 / 2021  */</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"></span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;windows.h&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="_control_8h.html#adadf890a5c41d15b89e2c18eb399d4f8">   19</a></span>&#160;<span class="preprocessor">#define ARRIBA &#39;w&#39;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="_control_8h.html#a0afc8a4ca8029ca14ce7ebb75a2860ea">   20</a></span>&#160;<span class="preprocessor">#define ABAJO &#39;s&#39;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="_control_8h.html#af4bced5cf8ed55746d4b5d34f9a0fe39">   21</a></span>&#160;<span class="preprocessor">#define ENTER 13</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#if !defined(__UML_Class_Diagram_2_Control_h)</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="_control_8h.html#a8c67551d495eec5eac97b0c062c52a38">   23</a></span>&#160;<span class="preprocessor">#define __UML_Class_Diagram_2_Control_h</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_control.html">   27</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_control.html">Control</a></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_control.html#a09a0e6df0e38c57b4f4a26a9b7a0b406">viewMenu</a>();<span class="comment">//menu</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment"></span>    <span class="keywordtype">int</span> <a class="code" href="class_control.html#af84822cf7aa89cc72e5fa82cdd1e526d">gotoxy</a>(USHORT x, USHORT y);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_control.html#a0db40eda659f87a942584608caf9fd48">useMenu</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> titulo[], <span class="keyword">const</span> <span class="keywordtype">char</span>* opciones[], <span class="keywordtype">int</span> n);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_control.html#a9cd0c6ed698ecac2cace10182f97fa10">useMenu2</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> titulo[], <span class="keyword">const</span> <span class="keywordtype">char</span>* admin[], <span class="keywordtype">int</span> n2);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_control.html#a7d850c39a3f0dd55c8cd941e08fb2466">useMenu3</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> titulo[], <span class="keyword">const</span> <span class="keywordtype">char</span>* user[], <span class="keywordtype">int</span> n3);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_control.html#a5b39ea972f714fc48831fed35370b4ff">onlyIntControl</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>*);<span class="comment">//validacion enteros</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment"></span>    <span class="keywordtype">char</span> <a class="code" href="class_control.html#a94eb5edcd4e2a45b219cc640fcaf528f">onlyCharControl</a>(<span class="keywordtype">void</span>);<span class="comment">//sube baja </span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment"></span>    <span class="keywordtype">void</span> <a class="code" href="class_control.html#abb722ccc65416610851aaa094c4afd3c">dibujarCuadro</a>(<span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> x2, <span class="keywordtype">int</span> y2);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_control.html#a7f875c53da3c11a5bf9e4c65027a9383">gotoxyS</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;};</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_control_html"><div class="ttname"><a href="class_control.html">Control</a></div><div class="ttdoc">Clase Control que contiene el Menu del aplicativo.</div><div class="ttdef"><b>Definition:</b> Control.h:28</div></div>
+<div class="ttc" id="aclass_control_html_a09a0e6df0e38c57b4f4a26a9b7a0b406"><div class="ttname"><a href="class_control.html#a09a0e6df0e38c57b4f4a26a9b7a0b406">Control::viewMenu</a></div><div class="ttdeci">void viewMenu()</div><div class="ttdoc">viewMenu Muestrael menu</div><div class="ttdef"><b>Definition:</b> Control.cpp:239</div></div>
+<div class="ttc" id="aclass_control_html_a0db40eda659f87a942584608caf9fd48"><div class="ttname"><a href="class_control.html#a0db40eda659f87a942584608caf9fd48">Control::useMenu</a></div><div class="ttdeci">int useMenu(const char titulo[], const char *opciones[], int n)</div><div class="ttdoc">useMenu Despliega las opciones que contiene el Menu</div><div class="ttdef"><b>Definition:</b> Control.cpp:43</div></div>
+<div class="ttc" id="aclass_control_html_a5b39ea972f714fc48831fed35370b4ff"><div class="ttname"><a href="class_control.html#a5b39ea972f714fc48831fed35370b4ff">Control::onlyIntControl</a></div><div class="ttdeci">int onlyIntControl(const char *)</div><div class="ttdoc">onlyIntControl Valida los numeros enteros ingresados desde teclado</div><div class="ttdef"><b>Definition:</b> Control.cpp:789</div></div>
+<div class="ttc" id="aclass_control_html_a7d850c39a3f0dd55c8cd941e08fb2466"><div class="ttname"><a href="class_control.html#a7d850c39a3f0dd55c8cd941e08fb2466">Control::useMenu3</a></div><div class="ttdeci">int useMenu3(const char titulo[], const char *user[], int n3)</div><div class="ttdoc">onlyIntControl Valida los numeros enteros ingresados desde teclado</div><div class="ttdef"><b>Definition:</b> Control.cpp:173</div></div>
+<div class="ttc" id="aclass_control_html_a7f875c53da3c11a5bf9e4c65027a9383"><div class="ttname"><a href="class_control.html#a7f875c53da3c11a5bf9e4c65027a9383">Control::gotoxyS</a></div><div class="ttdeci">void gotoxyS(int x, int y)</div><div class="ttdoc">gotoxy Mueve el contemnido</div><div class="ttdef"><b>Definition:</b> Control.cpp:830</div></div>
+<div class="ttc" id="aclass_control_html_a94eb5edcd4e2a45b219cc640fcaf528f"><div class="ttname"><a href="class_control.html#a94eb5edcd4e2a45b219cc640fcaf528f">Control::onlyCharControl</a></div><div class="ttdeci">char onlyCharControl(void)</div><div class="ttdoc">onlyCharControl Permite que el cursos se mueva de arriba hacia abajo</div><div class="ttdef"><b>Definition:</b> Control.cpp:810</div></div>
+<div class="ttc" id="aclass_control_html_a9cd0c6ed698ecac2cace10182f97fa10"><div class="ttname"><a href="class_control.html#a9cd0c6ed698ecac2cace10182f97fa10">Control::useMenu2</a></div><div class="ttdeci">int useMenu2(const char titulo[], const char *admin[], int n2)</div><div class="ttdoc">onlyIntControl Valida los numeros enteros ingresados desde teclado</div><div class="ttdef"><b>Definition:</b> Control.cpp:108</div></div>
+<div class="ttc" id="aclass_control_html_abb722ccc65416610851aaa094c4afd3c"><div class="ttname"><a href="class_control.html#abb722ccc65416610851aaa094c4afd3c">Control::dibujarCuadro</a></div><div class="ttdeci">void dibujarCuadro(int x1, int y1, int x2, int y2)</div><div class="ttdoc">dibujarCuadro Permite que el se cree un marco al rededor de la ventana de ejecucion</div><div class="ttdef"><b>Definition:</b> Control.cpp:841</div></div>
+<div class="ttc" id="aclass_control_html_af84822cf7aa89cc72e5fa82cdd1e526d"><div class="ttname"><a href="class_control.html#af84822cf7aa89cc72e5fa82cdd1e526d">Control::gotoxy</a></div><div class="ttdeci">int gotoxy(USHORT x, USHORT y)</div><div class="ttdoc">gotoxy Mueve el cursor tipo flecha</div><div class="ttdef"><b>Definition:</b> Control.cpp:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

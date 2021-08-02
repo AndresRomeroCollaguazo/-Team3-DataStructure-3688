@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ordenamientos: Fichero Fuente Peine.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Ordenamientos
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Ordenamientos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Peine.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_peine_8h.html">Ir a la documentaciÃ³n de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//                  *Universidad de las Fuerzas Armadas &quot;ESPE&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  Software</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  Autores : Cantuña Michelle, Medina Martín, Pérez Hamilton, Romero Jorge y Valarezo Andrés</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//  Deber de Ordenamientos</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Fecha creación : 20 / 07 / 2021</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Fecha de modificación : 29 / 07 / 2021  */</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"></span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_peine.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_peine.html">Peine</a></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">int</span> auxIzq;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">int</span> auxDer;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">int</span> pivote;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">int</span> auxDato;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_peine.html#a43d68d325b45c7ae7dadbdb6eabb9bb3">intercambiar</a>(T*, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_peine.html#a671c644ba66d985253cf278ff341e8ec">ordenar</a>(T*, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_peine.html#ad1c938a315ccafd761a1ba1a66dc3d66">imprimir</a>(T*, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_peine.html#a43d68d325b45c7ae7dadbdb6eabb9bb3">   46</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_peine.html#a43d68d325b45c7ae7dadbdb6eabb9bb3">Peine&lt;T&gt;::intercambiar</a>(T* vector, <span class="keywordtype">int</span> newIzq, <span class="keywordtype">int</span> newDer) {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    auxIzq = newIzq;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    auxDer = newDer;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    pivote = *(vector + ((newIzq + newDer) / 2));</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">do</span> {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">while</span> ((*(vector + auxIzq) &lt; pivote) &amp;&amp; (auxDer &lt;= newDer))</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            auxIzq++;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">while</span> ((pivote &lt; *(vector + auxDer)) &amp;&amp; (auxDer &gt; newIzq))</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            auxDer--;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span> (auxIzq &lt;= auxDer)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            auxDato = *(vector + auxIzq);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            *(vector + auxIzq) = *(vector + auxDer);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            *(vector + auxDer) = auxDato;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            auxIzq++;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            auxDer--;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    } <span class="keywordflow">while</span> (auxIzq &lt;= auxDer);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="class_peine.html#a671c644ba66d985253cf278ff341e8ec">   72</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_peine.html#a671c644ba66d985253cf278ff341e8ec">Peine&lt;T&gt;::ordenar</a>(T* vector, <span class="keywordtype">int</span> izq, <span class="keywordtype">int</span> der)</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;{</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    intercambiar(vector, izq, der);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">if</span> (izq &lt; auxDer)</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        ordenar(vector, izq, auxDer);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">if</span> (auxIzq &lt; der)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        ordenar(vector, auxIzq, der);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="class_peine.html#ad1c938a315ccafd761a1ba1a66dc3d66">   82</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_peine.html#ad1c938a315ccafd761a1ba1a66dc3d66">Peine&lt;T&gt;::imprimir</a>(T* vector, <span class="keywordtype">int</span> dimI, <span class="keywordtype">int</span> dimF)</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;{&quot;</span>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = dimI; i &lt; dimF; i++)</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        std::cout &lt;&lt; *(vector + i) &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;}&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="ttc" id="aclass_peine_html"><div class="ttname"><a href="class_peine.html">Peine</a></div><div class="ttdef"><b>Definition:</b> Peine.h:18</div></div>
+<div class="ttc" id="aclass_peine_html_a43d68d325b45c7ae7dadbdb6eabb9bb3"><div class="ttname"><a href="class_peine.html#a43d68d325b45c7ae7dadbdb6eabb9bb3">Peine::intercambiar</a></div><div class="ttdeci">void intercambiar(T *, int, int)</div><div class="ttdoc">mmezcla</div><div class="ttdef"><b>Definition:</b> Peine.h:46</div></div>
+<div class="ttc" id="aclass_peine_html_a671c644ba66d985253cf278ff341e8ec"><div class="ttname"><a href="class_peine.html#a671c644ba66d985253cf278ff341e8ec">Peine::ordenar</a></div><div class="ttdeci">void ordenar(T *, int, int)</div><div class="ttdoc">ordenar</div><div class="ttdef"><b>Definition:</b> Peine.h:72</div></div>
+<div class="ttc" id="aclass_peine_html_ad1c938a315ccafd761a1ba1a66dc3d66"><div class="ttname"><a href="class_peine.html#ad1c938a315ccafd761a1ba1a66dc3d66">Peine::imprimir</a></div><div class="ttdeci">void imprimir(T *, int, int)</div><div class="ttdoc">imprimir</div><div class="ttdef"><b>Definition:</b> Peine.h:82</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
