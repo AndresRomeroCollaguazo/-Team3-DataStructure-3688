@@ -1,0 +1,133 @@
+\hypertarget{classqrcodegen_1_1_qr_segment}{}\doxysection{Referencia de la Clase qrcodegen\+::Qr\+Segment}
+\label{classqrcodegen_1_1_qr_segment}\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+
+
+{\ttfamily \#include $<$qrcodegen.\+h$>$}
+
+\doxysubsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_1_1_mode}{Mode}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classqrcodegen_1_1_qr_segment_aac098af945f0037b853ac89600795e94}{Qr\+Segment}} (const \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_1_1_mode}{Mode}} \&md, int num\+Ch, const std\+::vector$<$ bool $>$ \&dt)
+\item 
+\mbox{\hyperlink{classqrcodegen_1_1_qr_segment_ad584cb1b2c19440f00adade362be5d23}{Qr\+Segment}} (const \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_1_1_mode}{Mode}} \&md, int num\+Ch, std\+::vector$<$ bool $>$ \&\&dt)
+\item 
+const \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_1_1_mode}{Mode}} \& \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_ac4e4bffedf012d9953f6202b95fc424c}{get\+Mode}} () const
+\item 
+int \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_a5cfeb0667c8986782e76f013372b2de3}{get\+Num\+Chars}} () const
+\item 
+const std\+::vector$<$ bool $>$ \& \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_ac805cd86c99c0871fd16e5d49fc4517a}{get\+Data}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_a32ead40ba58149f5e5fe13a6417d8304}{make\+Bytes}} (const std\+::vector$<$ std\+::uint8\+\_\+t $>$ \&data)
+\item 
+static \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_a03484cb17296745b303f0bd48b213446}{make\+Numeric}} (const char $\ast$digits)
+\item 
+static \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_ae2d00f78a60165d70faf5b56e36ae511}{make\+Alphanumeric}} (const char $\ast$text)
+\item 
+static std\+::vector$<$ \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} $>$ \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_aa587c9cfcb4b28552d5d1e4c05b5b962}{make\+Segments}} (const char $\ast$text)
+\item 
+static \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_a2cb028d26ef5d9d970b344eee0b98de7}{make\+Eci}} (long assign\+Val)
+\item 
+static bool \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_a9f2c32b351c0731c08fb170c2320f04d}{is\+Numeric}} (const char $\ast$text)
+\item 
+static bool \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_a28153ac814d7b3105473a33d6e6734f3}{is\+Alphanumeric}} (const char $\ast$text)
+\item 
+static int \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_ad03817114a3ea5237b79805692db285e}{get\+Total\+Bits}} (const std\+::vector$<$ \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} $>$ \&segs, int version)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_aac098af945f0037b853ac89600795e94}\label{classqrcodegen_1_1_qr_segment_aac098af945f0037b853ac89600795e94}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!QrSegment@{QrSegment}}
+\index{QrSegment@{QrSegment}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{QrSegment()}{QrSegment()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily qrcodegen\+::\+Qr\+Segment\+::\+Qr\+Segment (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_1_1_mode}{Mode}} \&}]{md,  }\item[{int}]{num\+Ch,  }\item[{const std\+::vector$<$ bool $>$ \&}]{dt }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_ad584cb1b2c19440f00adade362be5d23}\label{classqrcodegen_1_1_qr_segment_ad584cb1b2c19440f00adade362be5d23}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!QrSegment@{QrSegment}}
+\index{QrSegment@{QrSegment}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{QrSegment()}{QrSegment()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily qrcodegen\+::\+Qr\+Segment\+::\+Qr\+Segment (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_1_1_mode}{Mode}} \&}]{md,  }\item[{int}]{num\+Ch,  }\item[{std\+::vector$<$ bool $>$ \&\&}]{dt }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_ac805cd86c99c0871fd16e5d49fc4517a}\label{classqrcodegen_1_1_qr_segment_ac805cd86c99c0871fd16e5d49fc4517a}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!getData@{getData}}
+\index{getData@{getData}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{getData()}{getData()}}
+{\footnotesize\ttfamily const std\+::vector$<$ bool $>$ \& qrcodegen\+::\+Qr\+Segment\+::get\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_ac4e4bffedf012d9953f6202b95fc424c}\label{classqrcodegen_1_1_qr_segment_ac4e4bffedf012d9953f6202b95fc424c}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!getMode@{getMode}}
+\index{getMode@{getMode}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{getMode()}{getMode()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classqrcodegen_1_1_qr_segment_1_1_mode}{Qr\+Segment\+::\+Mode}} \& qrcodegen\+::\+Qr\+Segment\+::get\+Mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_a5cfeb0667c8986782e76f013372b2de3}\label{classqrcodegen_1_1_qr_segment_a5cfeb0667c8986782e76f013372b2de3}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!getNumChars@{getNumChars}}
+\index{getNumChars@{getNumChars}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{getNumChars()}{getNumChars()}}
+{\footnotesize\ttfamily int qrcodegen\+::\+Qr\+Segment\+::get\+Num\+Chars (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_ad03817114a3ea5237b79805692db285e}\label{classqrcodegen_1_1_qr_segment_ad03817114a3ea5237b79805692db285e}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!getTotalBits@{getTotalBits}}
+\index{getTotalBits@{getTotalBits}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{getTotalBits()}{getTotalBits()}}
+{\footnotesize\ttfamily int qrcodegen\+::\+Qr\+Segment\+::get\+Total\+Bits (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} $>$ \&}]{segs,  }\item[{int}]{version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_a28153ac814d7b3105473a33d6e6734f3}\label{classqrcodegen_1_1_qr_segment_a28153ac814d7b3105473a33d6e6734f3}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!isAlphanumeric@{isAlphanumeric}}
+\index{isAlphanumeric@{isAlphanumeric}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{isAlphanumeric()}{isAlphanumeric()}}
+{\footnotesize\ttfamily bool qrcodegen\+::\+Qr\+Segment\+::is\+Alphanumeric (\begin{DoxyParamCaption}\item[{const char $\ast$}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_a9f2c32b351c0731c08fb170c2320f04d}\label{classqrcodegen_1_1_qr_segment_a9f2c32b351c0731c08fb170c2320f04d}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!isNumeric@{isNumeric}}
+\index{isNumeric@{isNumeric}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{isNumeric()}{isNumeric()}}
+{\footnotesize\ttfamily bool qrcodegen\+::\+Qr\+Segment\+::is\+Numeric (\begin{DoxyParamCaption}\item[{const char $\ast$}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_ae2d00f78a60165d70faf5b56e36ae511}\label{classqrcodegen_1_1_qr_segment_ae2d00f78a60165d70faf5b56e36ae511}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!makeAlphanumeric@{makeAlphanumeric}}
+\index{makeAlphanumeric@{makeAlphanumeric}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{makeAlphanumeric()}{makeAlphanumeric()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} qrcodegen\+::\+Qr\+Segment\+::make\+Alphanumeric (\begin{DoxyParamCaption}\item[{const char $\ast$}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_a32ead40ba58149f5e5fe13a6417d8304}\label{classqrcodegen_1_1_qr_segment_a32ead40ba58149f5e5fe13a6417d8304}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!makeBytes@{makeBytes}}
+\index{makeBytes@{makeBytes}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{makeBytes()}{makeBytes()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} qrcodegen\+::\+Qr\+Segment\+::make\+Bytes (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::uint8\+\_\+t $>$ \&}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_a2cb028d26ef5d9d970b344eee0b98de7}\label{classqrcodegen_1_1_qr_segment_a2cb028d26ef5d9d970b344eee0b98de7}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!makeEci@{makeEci}}
+\index{makeEci@{makeEci}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{makeEci()}{makeEci()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} qrcodegen\+::\+Qr\+Segment\+::make\+Eci (\begin{DoxyParamCaption}\item[{long}]{assign\+Val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_a03484cb17296745b303f0bd48b213446}\label{classqrcodegen_1_1_qr_segment_a03484cb17296745b303f0bd48b213446}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!makeNumeric@{makeNumeric}}
+\index{makeNumeric@{makeNumeric}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{makeNumeric()}{makeNumeric()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} qrcodegen\+::\+Qr\+Segment\+::make\+Numeric (\begin{DoxyParamCaption}\item[{const char $\ast$}]{digits }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_segment_aa587c9cfcb4b28552d5d1e4c05b5b962}\label{classqrcodegen_1_1_qr_segment_aa587c9cfcb4b28552d5d1e4c05b5b962}} 
+\index{qrcodegen::QrSegment@{qrcodegen::QrSegment}!makeSegments@{makeSegments}}
+\index{makeSegments@{makeSegments}!qrcodegen::QrSegment@{qrcodegen::QrSegment}}
+\doxysubsubsection{\texorpdfstring{makeSegments()}{makeSegments()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} $>$ qrcodegen\+::\+Qr\+Segment\+::make\+Segments (\begin{DoxyParamCaption}\item[{const char $\ast$}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{qrcodegen_8h}{qrcodegen.\+h}}\item 
+\mbox{\hyperlink{qrcodegen_8cpp}{qrcodegen.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,154 @@
+\hypertarget{classqrcodegen_1_1_qr_code}{}\doxysection{Referencia de la Clase qrcodegen\+::Qr\+Code}
+\label{classqrcodegen_1_1_qr_code}\index{qrcodegen::QrCode@{qrcodegen::QrCode}}
+
+
+{\ttfamily \#include $<$qrcodegen.\+h$>$}
+
+\doxysubsection*{Tipos públicos}
+\begin{DoxyCompactItemize}
+\item 
+enum class \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{Ecc}} \{ \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0a41bc94cbd8eebea13ce0491b2ac11b88}{LOW}} = 0
+, \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0ac87f3be66ffc3c0d4249f1c2cc5f3cce}{MEDIUM}}
+, \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0a8927abb1f5ad5fce6a9eccbcf2b0a12d}{QUARTILE}}
+, \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0ab89de3b4b81c4facfac906edf29aec8c}{HIGH}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classqrcodegen_1_1_qr_code_a566e993f52899733fed8017bf8869b2b}{Qr\+Code}} (int ver, \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{Ecc}} ecl, const std\+::vector$<$ std\+::uint8\+\_\+t $>$ \&data\+Codewords, int msk)
+\item 
+int \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a2f473df995c683a0f3e63a6d83b6b2cb}{get\+Version}} () const
+\item 
+int \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a1fd72bbd390acc49362eddcfdf93b42b}{get\+Size}} () const
+\item 
+\mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{Ecc}} \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a158bfeb79b33f0f7c7325d60a50f5404}{get\+Error\+Correction\+Level}} () const
+\item 
+int \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a69de407dc25aa12a5c67d1fb9d0a6d8f}{get\+Mask}} () const
+\item 
+bool \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a729c17d33f13d21fb8295c04ef465133}{get\+Module}} (int x, int y) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classqrcodegen_1_1_qr_code}{Qr\+Code}} \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a15d9e26d273b8de6d0773e317ebd97d5}{encode\+Text}} (const char $\ast$text, \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{Ecc}} ecl)
+\item 
+static \mbox{\hyperlink{classqrcodegen_1_1_qr_code}{Qr\+Code}} \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a31efd868a933e2ea62a6f9694bf19606}{encode\+Binary}} (const std\+::vector$<$ std\+::uint8\+\_\+t $>$ \&data, \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{Ecc}} ecl)
+\item 
+static \mbox{\hyperlink{classqrcodegen_1_1_qr_code}{Qr\+Code}} \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a78aa108015b15a8b1fd35d042aff34aa}{encode\+Segments}} (const std\+::vector$<$ \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} $>$ \&segs, \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{Ecc}} ecl, int min\+Version=1, int max\+Version=40, int mask=-\/1, bool boost\+Ecl=true)
+\end{DoxyCompactItemize}
+\doxysubsection*{Atributos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static constexpr int \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a49443c1e43f8c73b6a5c6069c6b24bd4}{MIN\+\_\+\+VERSION}} = 1
+\item 
+static constexpr int \mbox{\hyperlink{classqrcodegen_1_1_qr_code_ac884bc36ec4765b89540751ad8c7dfa1}{MAX\+\_\+\+VERSION}} = 40
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las enumeraciones miembro de la clase}
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}\label{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!Ecc@{Ecc}}
+\index{Ecc@{Ecc}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{Ecc}{Ecc}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{qrcodegen\+::\+Qr\+Code\+::\+Ecc}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}{Valores de enumeraciones}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LOW@{LOW}!qrcodegen::QrCode@{qrcodegen::QrCode}}\index{qrcodegen::QrCode@{qrcodegen::QrCode}!LOW@{LOW}}}\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0a41bc94cbd8eebea13ce0491b2ac11b88}\label{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0a41bc94cbd8eebea13ce0491b2ac11b88}} 
+LOW&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MEDIUM@{MEDIUM}!qrcodegen::QrCode@{qrcodegen::QrCode}}\index{qrcodegen::QrCode@{qrcodegen::QrCode}!MEDIUM@{MEDIUM}}}\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0ac87f3be66ffc3c0d4249f1c2cc5f3cce}\label{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0ac87f3be66ffc3c0d4249f1c2cc5f3cce}} 
+MEDIUM&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{QUARTILE@{QUARTILE}!qrcodegen::QrCode@{qrcodegen::QrCode}}\index{qrcodegen::QrCode@{qrcodegen::QrCode}!QUARTILE@{QUARTILE}}}\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0a8927abb1f5ad5fce6a9eccbcf2b0a12d}\label{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0a8927abb1f5ad5fce6a9eccbcf2b0a12d}} 
+QUARTILE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HIGH@{HIGH}!qrcodegen::QrCode@{qrcodegen::QrCode}}\index{qrcodegen::QrCode@{qrcodegen::QrCode}!HIGH@{HIGH}}}\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0ab89de3b4b81c4facfac906edf29aec8c}\label{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0ab89de3b4b81c4facfac906edf29aec8c}} 
+HIGH&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a566e993f52899733fed8017bf8869b2b}\label{classqrcodegen_1_1_qr_code_a566e993f52899733fed8017bf8869b2b}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!QrCode@{QrCode}}
+\index{QrCode@{QrCode}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{QrCode()}{QrCode()}}
+{\footnotesize\ttfamily qrcodegen\+::\+Qr\+Code\+::\+Qr\+Code (\begin{DoxyParamCaption}\item[{int}]{ver,  }\item[{\mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{Ecc}}}]{ecl,  }\item[{const std\+::vector$<$ std\+::uint8\+\_\+t $>$ \&}]{data\+Codewords,  }\item[{int}]{msk }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a31efd868a933e2ea62a6f9694bf19606}\label{classqrcodegen_1_1_qr_code_a31efd868a933e2ea62a6f9694bf19606}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!encodeBinary@{encodeBinary}}
+\index{encodeBinary@{encodeBinary}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{encodeBinary()}{encodeBinary()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classqrcodegen_1_1_qr_code}{Qr\+Code}} qrcodegen\+::\+Qr\+Code\+::encode\+Binary (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::uint8\+\_\+t $>$ \&}]{data,  }\item[{\mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{Ecc}}}]{ecl }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a78aa108015b15a8b1fd35d042aff34aa}\label{classqrcodegen_1_1_qr_code_a78aa108015b15a8b1fd35d042aff34aa}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!encodeSegments@{encodeSegments}}
+\index{encodeSegments@{encodeSegments}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{encodeSegments()}{encodeSegments()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classqrcodegen_1_1_qr_code}{Qr\+Code}} qrcodegen\+::\+Qr\+Code\+::encode\+Segments (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{classqrcodegen_1_1_qr_segment}{Qr\+Segment}} $>$ \&}]{segs,  }\item[{\mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{Ecc}}}]{ecl,  }\item[{int}]{min\+Version = {\ttfamily 1},  }\item[{int}]{max\+Version = {\ttfamily 40},  }\item[{int}]{mask = {\ttfamily -\/1},  }\item[{bool}]{boost\+Ecl = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a15d9e26d273b8de6d0773e317ebd97d5}\label{classqrcodegen_1_1_qr_code_a15d9e26d273b8de6d0773e317ebd97d5}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!encodeText@{encodeText}}
+\index{encodeText@{encodeText}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{encodeText()}{encodeText()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classqrcodegen_1_1_qr_code}{Qr\+Code}} qrcodegen\+::\+Qr\+Code\+::encode\+Text (\begin{DoxyParamCaption}\item[{const char $\ast$}]{text,  }\item[{\mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{Ecc}}}]{ecl }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a158bfeb79b33f0f7c7325d60a50f5404}\label{classqrcodegen_1_1_qr_code_a158bfeb79b33f0f7c7325d60a50f5404}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!getErrorCorrectionLevel@{getErrorCorrectionLevel}}
+\index{getErrorCorrectionLevel@{getErrorCorrectionLevel}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{getErrorCorrectionLevel()}{getErrorCorrectionLevel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classqrcodegen_1_1_qr_code_a9ac15e987cf5cb71b1662373e6c9fec0}{Qr\+Code\+::\+Ecc}} qrcodegen\+::\+Qr\+Code\+::get\+Error\+Correction\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a69de407dc25aa12a5c67d1fb9d0a6d8f}\label{classqrcodegen_1_1_qr_code_a69de407dc25aa12a5c67d1fb9d0a6d8f}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!getMask@{getMask}}
+\index{getMask@{getMask}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{getMask()}{getMask()}}
+{\footnotesize\ttfamily int qrcodegen\+::\+Qr\+Code\+::get\+Mask (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a729c17d33f13d21fb8295c04ef465133}\label{classqrcodegen_1_1_qr_code_a729c17d33f13d21fb8295c04ef465133}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!getModule@{getModule}}
+\index{getModule@{getModule}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{getModule()}{getModule()}}
+{\footnotesize\ttfamily bool qrcodegen\+::\+Qr\+Code\+::get\+Module (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a1fd72bbd390acc49362eddcfdf93b42b}\label{classqrcodegen_1_1_qr_code_a1fd72bbd390acc49362eddcfdf93b42b}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!getSize@{getSize}}
+\index{getSize@{getSize}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily int qrcodegen\+::\+Qr\+Code\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a2f473df995c683a0f3e63a6d83b6b2cb}\label{classqrcodegen_1_1_qr_code_a2f473df995c683a0f3e63a6d83b6b2cb}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!getVersion@{getVersion}}
+\index{getVersion@{getVersion}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{getVersion()}{getVersion()}}
+{\footnotesize\ttfamily int qrcodegen\+::\+Qr\+Code\+::get\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+\doxysubsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_ac884bc36ec4765b89540751ad8c7dfa1}\label{classqrcodegen_1_1_qr_code_ac884bc36ec4765b89540751ad8c7dfa1}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!MAX\_VERSION@{MAX\_VERSION}}
+\index{MAX\_VERSION@{MAX\_VERSION}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{MAX\_VERSION}{MAX\_VERSION}}
+{\footnotesize\ttfamily constexpr int qrcodegen\+::\+Qr\+Code\+::\+MAX\+\_\+\+VERSION = 40\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [constexpr]}}
+
+\mbox{\Hypertarget{classqrcodegen_1_1_qr_code_a49443c1e43f8c73b6a5c6069c6b24bd4}\label{classqrcodegen_1_1_qr_code_a49443c1e43f8c73b6a5c6069c6b24bd4}} 
+\index{qrcodegen::QrCode@{qrcodegen::QrCode}!MIN\_VERSION@{MIN\_VERSION}}
+\index{MIN\_VERSION@{MIN\_VERSION}!qrcodegen::QrCode@{qrcodegen::QrCode}}
+\doxysubsubsection{\texorpdfstring{MIN\_VERSION}{MIN\_VERSION}}
+{\footnotesize\ttfamily constexpr int qrcodegen\+::\+Qr\+Code\+::\+MIN\+\_\+\+VERSION = 1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [constexpr]}}
+
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{qrcodegen_8h}{qrcodegen.\+h}}\item 
+\mbox{\hyperlink{qrcodegen_8cpp}{qrcodegen.\+cpp}}\end{DoxyCompactItemize}
