@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "task",
+			"command": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"${file}",
+				"C:\\Users\\Jorge\\Desktop\\ESPE\\Tercer Semestre\\Repositorio Primer Parcial\\ProyectoParcial2\\PROYECTO DICCIONARIO\\Arbol.cpp",
+				"C:\\Users\\Jorge\\Desktop\\ESPE\\Tercer Semestre\\Repositorio Primer Parcial\\ProyectoParcial2\\PROYECTO DICCIONARIO\\Control.cpp",
+				"C:\\Users\\Jorge\\Desktop\\ESPE\\Tercer Semestre\\Repositorio Primer Parcial\\ProyectoParcial2\\PROYECTO DICCIONARIO\\IngresoDatos.cpp",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compilador: \"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\""
+		}
+	]
+}
