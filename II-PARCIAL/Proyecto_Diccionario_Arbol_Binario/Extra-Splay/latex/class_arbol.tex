@@ -1,0 +1,249 @@
+\hypertarget{class_arbol}{}\doxysection{Arbol Class Reference}
+\label{class_arbol}\index{Arbol@{Arbol}}
+
+
+Clase \mbox{\hyperlink{class_arbol}{Arbol}} que contiene la estructura y funciones del arbol.  
+
+
+
+
+{\ttfamily \#include $<$Arbol.\+h$>$}
+
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{class_arbol}{Arbol}} $\ast$ \mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_arbol_a47329ff8fe01a770adc9eeed077e2eab}{crear\+Nodo}} (string, int, \mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}} \&)
+\begin{DoxyCompactList}\small\item\em crear\+Nodo crea nodo con un string y un codigo \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_arbol_a31b77cac9886ac82f6a4d5fb77870cde}{insertar}} (\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}} \&, int, string)
+\begin{DoxyCompactList}\small\item\em insertar inserta nodo con un string y un codigo \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_arbol_a3364f12800d7cf8888e340cc7fd3992a}{pre\+Orden}} (\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}})
+\begin{DoxyCompactList}\small\item\em pre\+Orden imprime el arbol en pre\+Orden \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_arbol_adcbd7c538108012fb7ba48784a811de8}{post\+Orden}} (\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}})
+\begin{DoxyCompactList}\small\item\em post\+Orden imprime el arbol en post\+Orden \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_arbol_ae4deb525cfc5fe8c4aecbd228d955206}{en\+Orden}} (\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}})
+\begin{DoxyCompactList}\small\item\em en\+Orden imprime el arbol en en\+Orden \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_arbol_aec31278755432cad3e783330a5be0881}{Buscar}} (\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}, int)
+\begin{DoxyCompactList}\small\item\em Buscar busca un nodo en el arbol por su codigo. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_arbol_a533efedbb775d36bb97288047b1e2d77}{Buscar}} (\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}, string)
+\begin{DoxyCompactList}\small\item\em Buscar busca un nodo en el arbol por su palabra. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_arbol_a45264c79bb164bdab9645657d6244cb1}{Traducir}} (\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}, \mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}, string)
+\begin{DoxyCompactList}\small\item\em Traducir recorre el los arboles ingles español para traducir la palabra insertada. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_arbol_a4f5d3e25a0e1a40cb09cefa39378b7be}{Arbol}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_arbol}{Arbol}} constructor vacio de la clase. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_arbol_ac03716ab43281af317ccc118e0d138d2}{$\sim$\+Arbol}} ()
+\begin{DoxyCompactList}\small\item\em Arbol$\sim$ destructor de la clase. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_arbol}{Arbol}} $\ast$ \mbox{\hyperlink{class_arbol_a0945084a920cc44b36c5abd469cbf104}{izq}}
+\item 
+\mbox{\hyperlink{class_arbol}{Arbol}} $\ast$ \mbox{\hyperlink{class_arbol_a87ce56ed3f1cfefa7f82ae595454f580}{der}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase \mbox{\hyperlink{class_arbol}{Arbol}} que contiene la estructura y funciones del arbol. 
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}\label{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}} 
+\index{Arbol@{Arbol}!arbol@{arbol}}
+\index{arbol@{arbol}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{arbol}{arbol}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{class_arbol}{Arbol}}$\ast$ \mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{Arbol\+::arbol}}}
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_arbol_a4f5d3e25a0e1a40cb09cefa39378b7be}\label{class_arbol_a4f5d3e25a0e1a40cb09cefa39378b7be}} 
+\index{Arbol@{Arbol}!Arbol@{Arbol}}
+\index{Arbol@{Arbol}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{Arbol()}{Arbol()}}
+{\footnotesize\ttfamily Arbol\+::\+Arbol (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_arbol}{Arbol}} constructor vacio de la clase. 
+
+\mbox{\Hypertarget{class_arbol_ac03716ab43281af317ccc118e0d138d2}\label{class_arbol_ac03716ab43281af317ccc118e0d138d2}} 
+\index{Arbol@{Arbol}!````~Arbol@{$\sim$Arbol}}
+\index{````~Arbol@{$\sim$Arbol}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{$\sim$Arbol()}{~Arbol()}}
+{\footnotesize\ttfamily Arbol\+::$\sim$\+Arbol (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Arbol$\sim$ destructor de la clase. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_arbol_aec31278755432cad3e783330a5be0881}\label{class_arbol_aec31278755432cad3e783330a5be0881}} 
+\index{Arbol@{Arbol}!Buscar@{Buscar}}
+\index{Buscar@{Buscar}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{Buscar()}{Buscar()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily string Arbol\+::\+Buscar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}}]{arbo,  }\item[{int}]{cod }\end{DoxyParamCaption})}
+
+
+
+Buscar busca un nodo en el arbol por su codigo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arbol} & arbol en donde recorrer y encontrar el nodo \\
+\hline
+{\em int} & codigo del nodo a buscarlo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string palabra del nodo encontrado 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_arbol_a533efedbb775d36bb97288047b1e2d77}\label{class_arbol_a533efedbb775d36bb97288047b1e2d77}} 
+\index{Arbol@{Arbol}!Buscar@{Buscar}}
+\index{Buscar@{Buscar}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{Buscar()}{Buscar()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int Arbol\+::\+Buscar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}}]{arbo,  }\item[{string}]{palabra }\end{DoxyParamCaption})}
+
+
+
+Buscar busca un nodo en el arbol por su palabra. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arbol} & arbol en donde recorrer y encontrar el nodo \\
+\hline
+{\em string} & palabra del nodo a buscarlo \\
+\hline
+{\em int} & codigo del nodo buscado \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_arbol_a47329ff8fe01a770adc9eeed077e2eab}\label{class_arbol_a47329ff8fe01a770adc9eeed077e2eab}} 
+\index{Arbol@{Arbol}!crearNodo@{crearNodo}}
+\index{crearNodo@{crearNodo}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{crearNodo()}{crearNodo()}}
+{\footnotesize\ttfamily void Arbol\+::crear\+Nodo (\begin{DoxyParamCaption}\item[{string}]{palabra,  }\item[{int}]{x,  }\item[{\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}} \&}]{arbo }\end{DoxyParamCaption})}
+
+
+
+crear\+Nodo crea nodo con un string y un codigo 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & palabra del nodo \\
+\hline
+{\em int} & codigo del nodo \\
+\hline
+{\em arbol\&} & arbol en donde crear nodo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_arbol_ae4deb525cfc5fe8c4aecbd228d955206}\label{class_arbol_ae4deb525cfc5fe8c4aecbd228d955206}} 
+\index{Arbol@{Arbol}!enOrden@{enOrden}}
+\index{enOrden@{enOrden}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{enOrden()}{enOrden()}}
+{\footnotesize\ttfamily void Arbol\+::en\+Orden (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}}]{arbo }\end{DoxyParamCaption})}
+
+
+
+en\+Orden imprime el arbol en en\+Orden 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arbol} & arbol en donde recorrer en enorden e imprimirlo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_arbol_a31b77cac9886ac82f6a4d5fb77870cde}\label{class_arbol_a31b77cac9886ac82f6a4d5fb77870cde}} 
+\index{Arbol@{Arbol}!insertar@{insertar}}
+\index{insertar@{insertar}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{insertar()}{insertar()}}
+{\footnotesize\ttfamily void Arbol\+::insertar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}} \&}]{arbo,  }\item[{int}]{x,  }\item[{string}]{palabra }\end{DoxyParamCaption})}
+
+
+
+insertar inserta nodo con un string y un codigo 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & palabra del nodo \\
+\hline
+{\em int} & codigo del nodo \\
+\hline
+{\em arbol\&} & arbol en donde insertar nodo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_arbol_adcbd7c538108012fb7ba48784a811de8}\label{class_arbol_adcbd7c538108012fb7ba48784a811de8}} 
+\index{Arbol@{Arbol}!postOrden@{postOrden}}
+\index{postOrden@{postOrden}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{postOrden()}{postOrden()}}
+{\footnotesize\ttfamily void Arbol\+::post\+Orden (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}}]{arbo }\end{DoxyParamCaption})}
+
+
+
+post\+Orden imprime el arbol en post\+Orden 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arbol} & arbol en donde recorrer en postorden e imprimirlo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_arbol_a3364f12800d7cf8888e340cc7fd3992a}\label{class_arbol_a3364f12800d7cf8888e340cc7fd3992a}} 
+\index{Arbol@{Arbol}!preOrden@{preOrden}}
+\index{preOrden@{preOrden}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{preOrden()}{preOrden()}}
+{\footnotesize\ttfamily void Arbol\+::pre\+Orden (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}}]{arbo }\end{DoxyParamCaption})}
+
+
+
+pre\+Orden imprime el arbol en pre\+Orden 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arbol} & arbol en donde recorrer en preorden e imprimirlo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_arbol_a45264c79bb164bdab9645657d6244cb1}\label{class_arbol_a45264c79bb164bdab9645657d6244cb1}} 
+\index{Arbol@{Arbol}!Traducir@{Traducir}}
+\index{Traducir@{Traducir}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{Traducir()}{Traducir()}}
+{\footnotesize\ttfamily string Arbol\+::\+Traducir (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}}]{Arbol\+In,  }\item[{\mbox{\hyperlink{class_arbol_a9f66620df682fc4c42b13693c43bf8c7}{arbol}}}]{Arbol\+Es,  }\item[{string}]{palabra\+In }\end{DoxyParamCaption})}
+
+
+
+Traducir recorre el los arboles ingles español para traducir la palabra insertada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arbol} & arbol en donde recorrer y encontrar traduccion \\
+\hline
+{\em arbol} & arbol en donde recorrer y encontrar traduccion \\
+\hline
+{\em string} & palabra a traducir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string palabra traducida 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_arbol_a87ce56ed3f1cfefa7f82ae595454f580}\label{class_arbol_a87ce56ed3f1cfefa7f82ae595454f580}} 
+\index{Arbol@{Arbol}!der@{der}}
+\index{der@{der}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{der}{der}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_arbol}{Arbol}}$\ast$ Arbol\+::der}
+
+\mbox{\Hypertarget{class_arbol_a0945084a920cc44b36c5abd469cbf104}\label{class_arbol_a0945084a920cc44b36c5abd469cbf104}} 
+\index{Arbol@{Arbol}!izq@{izq}}
+\index{izq@{izq}!Arbol@{Arbol}}
+\doxysubsubsection{\texorpdfstring{izq}{izq}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_arbol}{Arbol}}$\ast$ Arbol\+::izq}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_arbol_8h}{Arbol.\+h}}\item 
+\mbox{\hyperlink{_arbol_8cpp}{Arbol.\+cpp}}\end{DoxyCompactItemize}
